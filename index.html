@@ -11,7 +11,7 @@
 <helmet>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&amp;family=IBM+Plex+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet">
   <script src="./image-slot.js"></script>
   <style>
     :root {
@@ -45,13 +45,13 @@
   <!-- NAV -->
   <nav id="siteNav" style="position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(241,239,233,0);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border-bottom:1px solid transparent;transition:background 0.4s ease,border-color 0.4s ease;">
     <div id="scrollProgress" style="position:absolute;bottom:-1px;left:0;height:2px;width:0%;background:var(--accent);z-index:2;"></div>
-    <div data-container style="max-width:1120px;margin:0 auto;padding:0 40px;height:52px;display:flex;align-items:center;justify-content:space-between;">
+    <div data-container="" style="max-width:1120px;margin:0 auto;padding:0 40px;height:52px;display:flex;align-items:center;justify-content:space-between;">
       <a href="#/" style="font-family:'Manrope',sans-serif;font-size:15px;font-weight:700;color:var(--ink);text-decoration:none;letter-spacing:-0.02em;transition:opacity 0.2s;" style-hover="opacity:0.5;">Youssef Radi</a>
       <div style="display:flex;align-items:center;gap:28px;">
-        <a href="#overview" data-nav-link="overview" data-nav-hide style="font-size:13px;color:var(--ink-2);text-decoration:none;font-weight:500;transition:color 0.2s;" style-hover="color:var(--ink);">Overview</a>
-        <a href="#services" data-nav-link="services" data-nav-hide style="font-size:13px;color:var(--ink-2);text-decoration:none;font-weight:500;transition:color 0.2s;" style-hover="color:var(--ink);">Services</a>
-        <a href="#work" data-nav-link="work" data-nav-hide style="font-size:13px;color:var(--ink-2);text-decoration:none;font-weight:500;transition:color 0.2s;" style-hover="color:var(--ink);">Work</a>
-        <a href="#skills" data-nav-link="skills" data-nav-hide style="font-size:13px;color:var(--ink-2);text-decoration:none;font-weight:500;transition:color 0.2s;" style-hover="color:var(--ink);">Skills</a>
+        <a href="#overview" data-nav-link="overview" data-nav-hide="" style="font-size:13px;color:var(--ink-2);text-decoration:none;font-weight:500;transition:color 0.2s;" style-hover="color:var(--ink);">Overview</a>
+        <a href="#services" data-nav-link="services" data-nav-hide="" style="font-size:13px;color:var(--ink-2);text-decoration:none;font-weight:500;transition:color 0.2s;" style-hover="color:var(--ink);">Services</a>
+        <a href="#work" data-nav-link="work" data-nav-hide="" style="font-size:13px;color:var(--ink-2);text-decoration:none;font-weight:500;transition:color 0.2s;" style-hover="color:var(--ink);">Work</a>
+        <a href="#skills" data-nav-link="skills" data-nav-hide="" style="font-size:13px;color:var(--ink-2);text-decoration:none;font-weight:500;transition:color 0.2s;" style-hover="color:var(--ink);">Skills</a>
         <a href="#contact" style="font-size:13px;font-weight:600;color:#fff;background:var(--accent);padding:8px 18px;border-radius:var(--radius);text-decoration:none;transition:opacity 0.2s,transform 0.25s;" style-hover="opacity:0.85;transform:translateY(-1px);">Contact</a>
       </div>
     </div>
@@ -59,22 +59,22 @@
 
   <!-- HERO -->
   <section id="overview" style="padding:140px 0 0;background:var(--paper);background-image:linear-gradient(rgba(28,27,25,0.032) 1px,transparent 1px),linear-gradient(90deg,rgba(28,27,25,0.032) 1px,transparent 1px);background-size:44px 44px;">
-    <div data-container style="max-width:1120px;margin:0 auto;padding:0 40px;">
-      <div data-hero-2col style="display:grid;grid-template-columns:1fr 264px;gap:64px;align-items:center;margin-bottom:40px;">
+    <div data-container="" style="max-width:1120px;margin:0 auto;padding:0 40px;">
+      <div data-hero-2col="" style="display:grid;grid-template-columns:1fr 264px;gap:64px;align-items:center;margin-bottom:40px;">
         <div>
-          <div data-fade style="display:inline-flex;align-items:center;gap:9px;margin-bottom:22px;opacity:0;transform:translateY(18px);transition:opacity 0.7s cubic-bezier(0.4,0,0.2,1),transform 0.7s cubic-bezier(0.4,0,0.2,1);">
+          <div data-fade="" style="display:inline-flex;align-items:center;gap:9px;margin-bottom:22px;opacity:0;transform:translateY(18px);transition:opacity 0.7s cubic-bezier(0.4,0,0.2,1),transform 0.7s cubic-bezier(0.4,0,0.2,1);">
             <div style="width:5px;height:5px;border-radius:50%;background:var(--accent);flex-shrink:0;"></div>
             <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:500;color:var(--ink-3);letter-spacing:0.1em;text-transform:uppercase;">Mechanical Product Design</span>
           </div>
-          <h1 data-fade style="font-family:'Manrope',sans-serif;font-size:clamp(36px,5.2vw,66px);font-weight:700;color:var(--ink);margin:0 0 20px;line-height:1.06;letter-spacing:-0.03em;text-wrap:balance;opacity:0;transform:translateY(18px);transition:opacity 0.7s 0.08s cubic-bezier(0.4,0,0.2,1),transform 0.7s 0.08s cubic-bezier(0.4,0,0.2,1);">Mechanical Product Design, CAD, FEA &amp; 3D Printed Prototyping</h1>
-          <p data-fade style="font-size:clamp(16px,1.6vw,18px);color:var(--ink-2);line-height:1.72;margin:0 0 32px;text-wrap:pretty;opacity:0;transform:translateY(18px);transition:opacity 0.7s 0.16s cubic-bezier(0.4,0,0.2,1),transform 0.7s 0.16s cubic-bezier(0.4,0,0.2,1);">I help founders, startups, and engineering teams turn product ideas into functional CAD, tested prototypes, and manufacturable designs — built to be tested, not just rendered.</p>
-          <div data-fade style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;opacity:0;transform:translateY(18px);transition:opacity 0.7s 0.24s cubic-bezier(0.4,0,0.2,1),transform 0.7s 0.24s cubic-bezier(0.4,0,0.2,1);">
+          <h1 data-fade="" style="font-family:'Manrope',sans-serif;font-size:clamp(36px,5.2vw,66px);font-weight:700;color:var(--ink);margin:0 0 20px;line-height:1.06;letter-spacing:-0.03em;text-wrap:balance;opacity:0;transform:translateY(18px);transition:opacity 0.7s 0.08s cubic-bezier(0.4,0,0.2,1),transform 0.7s 0.08s cubic-bezier(0.4,0,0.2,1);">Mechanical Product Design, CAD, FEA &amp; 3D Printed Prototyping</h1>
+          <p data-fade="" style="font-size:clamp(16px,1.6vw,18px);color:var(--ink-2);line-height:1.72;margin:0 0 32px;text-wrap:pretty;opacity:0;transform:translateY(18px);transition:opacity 0.7s 0.16s cubic-bezier(0.4,0,0.2,1),transform 0.7s 0.16s cubic-bezier(0.4,0,0.2,1);">I help founders, startups, and engineering teams turn product ideas into functional CAD, tested prototypes, and manufacturable designs — built to be tested, not just rendered.</p>
+          <div data-fade="" style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;opacity:0;transform:translateY(18px);transition:opacity 0.7s 0.24s cubic-bezier(0.4,0,0.2,1),transform 0.7s 0.24s cubic-bezier(0.4,0,0.2,1);">
             <a href="#work" style="display:inline-flex;align-items:center;gap:7px;padding:13px 24px;background:var(--accent);color:#fff;font-size:15px;font-weight:600;border-radius:var(--radius);text-decoration:none;transition:transform 0.3s cubic-bezier(0.4,0,0.2,1),box-shadow 0.3s,opacity 0.2s;" style-hover="transform:translateY(-2px);box-shadow:0 10px 28px rgba(30,80,104,0.3);opacity:0.9;">View Projects</a>
             <a href="#contact" style="display:inline-flex;align-items:center;padding:12px 24px;background:transparent;color:var(--ink);font-size:15px;font-weight:600;border-radius:var(--radius);text-decoration:none;border:1px solid var(--line-2);transition:border-color 0.2s,transform 0.3s cubic-bezier(0.4,0,0.2,1);" style-hover="border-color:var(--ink);transform:translateY(-2px);">Contact Me</a>
           </div>
         </div>
         <!-- Headshot with technical drawing corner brackets -->
-        <div data-fade style="opacity:0;transform:translateY(18px);transition:opacity 0.7s 0.1s cubic-bezier(0.4,0,0.2,1),transform 0.7s 0.1s cubic-bezier(0.4,0,0.2,1);">
+        <div data-fade="" style="opacity:0;transform:translateY(18px);transition:opacity 0.7s 0.1s cubic-bezier(0.4,0,0.2,1),transform 0.7s 0.1s cubic-bezier(0.4,0,0.2,1);">
           <div style="position:relative;padding:10px;">
             <div style="position:absolute;top:0;left:0;width:20px;height:20px;border-top:1.5px solid var(--accent);border-left:1.5px solid var(--accent);"></div>
             <div style="position:absolute;top:0;right:0;width:20px;height:20px;border-top:1.5px solid var(--accent);border-right:1.5px solid var(--accent);"></div>
@@ -86,7 +86,7 @@
         </div>
       </div>
       <!-- Stats bar -->
-      <div data-fade style="display:flex;align-items:flex-start;flex-wrap:wrap;gap:28px 52px;padding-top:24px;border-top:1px solid var(--line);margin-bottom:64px;opacity:0;transform:translateY(18px);transition:opacity 0.7s 0.32s cubic-bezier(0.4,0,0.2,1),transform 0.7s 0.32s cubic-bezier(0.4,0,0.2,1);">
+      <div data-fade="" style="display:flex;align-items:flex-start;flex-wrap:wrap;gap:28px 52px;padding-top:24px;border-top:1px solid var(--line);margin-bottom:64px;opacity:0;transform:translateY(18px);transition:opacity 0.7s 0.32s cubic-bezier(0.4,0,0.2,1),transform 0.7s 0.32s cubic-bezier(0.4,0,0.2,1);">
         <div>
           <div style="font-size:16px;font-weight:600;color:var(--ink);letter-spacing:-0.01em;">SolidWorks · Fusion 360 · CATIA</div>
           <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--ink-3);font-weight:500;margin-top:5px;text-transform:uppercase;letter-spacing:0.1em;">CAD Platforms</div>
@@ -105,43 +105,43 @@
 
   <!-- SERVICES — BOM list format -->
   <section id="services" style="background:var(--surface);padding:clamp(40px,4.5vw,56px) 0;">
-    <div data-container style="max-width:1120px;margin:0 auto;padding:0 40px;">
-      <div data-fade style="opacity:0;transform:translateY(22px);transition:opacity 0.7s cubic-bezier(0.4,0,0.2,1),transform 0.7s cubic-bezier(0.4,0,0.2,1);margin-bottom:28px;padding-left:16px;border-left:2px solid var(--accent);">
+    <div data-container="" style="max-width:1120px;margin:0 auto;padding:0 40px;">
+      <div data-fade="" style="opacity:0;transform:translateY(22px);transition:opacity 0.7s cubic-bezier(0.4,0,0.2,1),transform 0.7s cubic-bezier(0.4,0,0.2,1);margin-bottom:28px;padding-left:16px;border-left:2px solid var(--accent);">
         <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:500;letter-spacing:0.1em;text-transform:uppercase;color:var(--accent);margin-bottom:10px;">01 — What I Do</div>
         <h2 style="font-family:'Manrope',sans-serif;font-size:clamp(28px,3.4vw,42px);font-weight:700;color:var(--ink);margin:0;letter-spacing:-0.025em;line-height:1.1;">Services</h2>
       </div>
       <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--line);border:1px solid var(--line);">
-        <div data-fade data-service-row style="background:var(--surface);padding:22px 26px;opacity:0;transform:translateY(16px);transition:opacity 0.6s cubic-bezier(0.4,0,0.2,1),transform 0.6s cubic-bezier(0.4,0,0.2,1);">
+        <div data-fade="" data-service-row="" style="background:var(--surface);padding:22px 26px;opacity:0;transform:translateY(16px);transition:opacity 0.6s cubic-bezier(0.4,0,0.2,1),transform 0.6s cubic-bezier(0.4,0,0.2,1);">
           <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:8px;">
             <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:500;color:var(--ink-3);letter-spacing:0.06em;">01</div>
             <h3 style="font-family:'Manrope',sans-serif;font-size:18px;font-weight:600;color:var(--ink);margin:0;letter-spacing:-0.015em;">Mechanical CAD</h3>
           </div>
           <p style="font-size:14px;color:var(--ink-2);line-height:1.6;margin:0 0 12px;">Clean 3D models, assemblies, STEP files, 2D drawings, fitment checks, tolerances, and practical design updates.</p>
-          <div data-service-tags style="font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--ink-3);letter-spacing:0.04em;">SolidWorks · Fusion 360 · CATIA · 2D Drawings</div>
+          <div data-service-tags="" style="font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--ink-3);letter-spacing:0.04em;">SolidWorks · Fusion 360 · CATIA · 2D Drawings</div>
         </div>
-        <div data-fade data-service-row style="background:var(--surface);padding:22px 26px;opacity:0;transform:translateY(16px);transition:opacity 0.6s 0.07s cubic-bezier(0.4,0,0.2,1),transform 0.6s 0.07s cubic-bezier(0.4,0,0.2,1);">
+        <div data-fade="" data-service-row="" style="background:var(--surface);padding:22px 26px;opacity:0;transform:translateY(16px);transition:opacity 0.6s 0.07s cubic-bezier(0.4,0,0.2,1),transform 0.6s 0.07s cubic-bezier(0.4,0,0.2,1);">
           <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:8px;">
             <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:500;color:var(--ink-3);letter-spacing:0.06em;">02</div>
             <h3 style="font-family:'Manrope',sans-serif;font-size:18px;font-weight:600;color:var(--ink);margin:0;letter-spacing:-0.015em;">Product Design &amp; DFM</h3>
           </div>
           <p style="font-size:14px;color:var(--ink-2);line-height:1.6;margin:0 0 12px;">Functional concepts, injection molding, snap-fits, enclosures, mechanisms, material selection, and manufacturability-focused design.</p>
-          <div data-service-tags style="font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--ink-3);letter-spacing:0.04em;">Injection Molding · Snap-Fits · DFM · Enclosures</div>
+          <div data-service-tags="" style="font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--ink-3);letter-spacing:0.04em;">Injection Molding · Snap-Fits · DFM · Enclosures</div>
         </div>
-        <div data-fade data-service-row style="background:var(--surface);padding:22px 26px;opacity:0;transform:translateY(16px);transition:opacity 0.6s 0.14s cubic-bezier(0.4,0,0.2,1),transform 0.6s 0.14s cubic-bezier(0.4,0,0.2,1);">
+        <div data-fade="" data-service-row="" style="background:var(--surface);padding:22px 26px;opacity:0;transform:translateY(16px);transition:opacity 0.6s 0.14s cubic-bezier(0.4,0,0.2,1),transform 0.6s 0.14s cubic-bezier(0.4,0,0.2,1);">
           <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:8px;">
             <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:500;color:var(--ink-3);letter-spacing:0.06em;">03</div>
             <h3 style="font-family:'Manrope',sans-serif;font-size:18px;font-weight:600;color:var(--ink);margin:0;letter-spacing:-0.015em;">FEA / Stress Analysis</h3>
           </div>
           <p style="font-size:14px;color:var(--ink-2);line-height:1.6;margin:0 0 12px;">ANSYS stress analysis, load cases, deformation checks, hand calculations, design validation, and structural improvement.</p>
-          <div data-service-tags style="font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--ink-3);letter-spacing:0.04em;">ANSYS · Load Cases · Hand Calcs · Validation</div>
+          <div data-service-tags="" style="font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--ink-3);letter-spacing:0.04em;">ANSYS · Load Cases · Hand Calcs · Validation</div>
         </div>
-        <div data-fade data-service-row style="background:var(--surface);padding:22px 26px;opacity:0;transform:translateY(16px);transition:opacity 0.6s 0.21s cubic-bezier(0.4,0,0.2,1),transform 0.6s 0.21s cubic-bezier(0.4,0,0.2,1);">
+        <div data-fade="" data-service-row="" style="background:var(--surface);padding:22px 26px;opacity:0;transform:translateY(16px);transition:opacity 0.6s 0.21s cubic-bezier(0.4,0,0.2,1),transform 0.6s 0.21s cubic-bezier(0.4,0,0.2,1);">
           <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:8px;">
             <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:500;color:var(--ink-3);letter-spacing:0.06em;">04</div>
             <h3 style="font-family:'Manrope',sans-serif;font-size:18px;font-weight:600;color:var(--ink);margin:0;letter-spacing:-0.015em;">3D Printing &amp; Prototyping</h3>
           </div>
           <p style="font-size:14px;color:var(--ink-2);line-height:1.6;margin:0 0 12px;">FDM-focused design, STL preparation, print orientation, wall thickness, supports, tolerances, and functional prototypes.</p>
-          <div data-service-tags style="font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--ink-3);letter-spacing:0.04em;">FDM Printing · Print Farm · STL Prep · Rapid Iteration</div>
+          <div data-service-tags="" style="font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--ink-3);letter-spacing:0.04em;">FDM Printing · Print Farm · STL Prep · Rapid Iteration</div>
         </div>
       </div>
     </div>
@@ -149,8 +149,8 @@
 
   <!-- WORK — prominent treatment -->
   <section id="work" style="background:var(--paper);padding:clamp(48px,6vw,72px) 0 clamp(56px,7vw,80px);">
-    <div data-container style="max-width:1120px;margin:0 auto;padding:0 40px;">
-      <div data-fade style="opacity:0;transform:translateY(22px);transition:opacity 0.7s cubic-bezier(0.4,0,0.2,1),transform 0.7s cubic-bezier(0.4,0,0.2,1);margin-bottom:28px;display:flex;align-items:flex-end;justify-content:space-between;gap:24px;">
+    <div data-container="" style="max-width:1120px;margin:0 auto;padding:0 40px;">
+      <div data-fade="" style="opacity:0;transform:translateY(22px);transition:opacity 0.7s cubic-bezier(0.4,0,0.2,1),transform 0.7s cubic-bezier(0.4,0,0.2,1);margin-bottom:28px;display:flex;align-items:flex-end;justify-content:space-between;gap:24px;">
         <div style="padding-left:16px;border-left:2px solid var(--accent);">
           <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:500;letter-spacing:0.1em;text-transform:uppercase;color:var(--accent);margin-bottom:10px;">02 — Selected Work</div>
           <h2 style="font-family:'Manrope',sans-serif;font-size:clamp(28px,3.4vw,42px);font-weight:700;color:var(--ink);margin:0 0 10px;letter-spacing:-0.025em;line-height:1.1;">Projects</h2>
@@ -165,8 +165,8 @@
           </button>
         </div>
       </div>
-      <a href="#/project/helmet" data-fade style="position:relative;display:block;text-decoration:none;border-radius:var(--radius);overflow:hidden;margin-bottom:36px;border:1px solid var(--line);background:#000000;opacity:0;transform:translateY(18px);transition:opacity 0.7s cubic-bezier(0.4,0,0.2,1),transform 0.7s cubic-bezier(0.4,0,0.2,1),box-shadow 0.4s;" style-hover="box-shadow:0 26px 64px rgba(28,27,25,0.24);">
-        <video autoplay muted loop playsinline src="assets/helmet/hero-video.mp4" style="width:100%;height:clamp(340px,44vw,500px);object-fit:cover;display:block;opacity:0.92;"></video>
+      <a href="#/project/helmet" data-fade="" style="position:relative;display:block;text-decoration:none;border-radius:var(--radius);overflow:hidden;margin-bottom:36px;border:1px solid var(--line);background:#000000;opacity:0;transform:translateY(18px);transition:opacity 0.7s cubic-bezier(0.4,0,0.2,1),transform 0.7s cubic-bezier(0.4,0,0.2,1),box-shadow 0.4s;" style-hover="box-shadow:0 26px 64px rgba(28,27,25,0.24);">
+        <video autoplay="" muted="" loop="" playsinline="" src="assets/helmet/hero-video.mp4" style="width:100%;height:clamp(340px,44vw,500px);object-fit:cover;display:block;opacity:0.92;"></video>
         <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(14,13,12,0.92) 0%,rgba(14,13,12,0.42) 46%,rgba(14,13,12,0.06) 72%);pointer-events:none;"></div>
         <div style="position:absolute;left:0;right:0;bottom:0;padding:clamp(22px,3.6vw,40px);display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:20px 32px;">
           <div style="max-width:600px;">
@@ -183,17 +183,16 @@
           </span>
         </div>
       </a>
-      <div data-fade style="opacity:0;transform:translateY(18px);transition:opacity 0.6s cubic-bezier(0.4,0,0.2,1),transform 0.6s cubic-bezier(0.4,0,0.2,1);display:flex;flex-wrap:wrap;gap:7px;margin-bottom:32px;">
+      <div data-fade="" style="opacity:0;transform:translateY(18px);transition:opacity 0.6s cubic-bezier(0.4,0,0.2,1),transform 0.6s cubic-bezier(0.4,0,0.2,1);display:flex;flex-wrap:wrap;gap:7px;margin-bottom:32px;">
         <button data-filter="featured" style="font-family:inherit;cursor:pointer;font-size:12px;font-weight:600;padding:7px 16px;border-radius:var(--radius);border:1px solid var(--ink);background:var(--ink);color:#fff;transition:all 0.2s;letter-spacing:0.01em;">Featured</button>
         <button data-filter="all" style="font-family:inherit;cursor:pointer;font-size:12px;font-weight:600;padding:7px 16px;border-radius:var(--radius);border:1px solid var(--line-2);background:transparent;color:var(--ink-2);transition:all 0.2s;" style-hover="border-color:var(--ink);color:var(--ink);">All</button>
         <button data-filter="3d-printing" style="font-family:inherit;cursor:pointer;font-size:12px;font-weight:600;padding:7px 16px;border-radius:var(--radius);border:1px solid var(--line-2);background:transparent;color:var(--ink-2);transition:all 0.2s;" style-hover="border-color:var(--ink);color:var(--ink);">3D Printing</button>
         <button data-filter="mechanical" style="font-family:inherit;cursor:pointer;font-size:12px;font-weight:600;padding:7px 16px;border-radius:var(--radius);border:1px solid var(--line-2);background:transparent;color:var(--ink-2);transition:all 0.2s;" style-hover="border-color:var(--ink);color:var(--ink);">Mechanical</button>
-        <button data-filter="mechatronics" style="font-family:inherit;cursor:pointer;font-size:12px;font-weight:600;padding:7px 16px;border-radius:var(--radius);border:1px solid var(--line-2);background:transparent;color:var(--ink-2);transition:all 0.2s;" style-hover="border-color:var(--ink);color:var(--ink);">Mechatronics</button>
         <button data-filter="product-design" style="font-family:inherit;cursor:pointer;font-size:12px;font-weight:600;padding:7px 16px;border-radius:var(--radius);border:1px solid var(--line-2);background:transparent;color:var(--ink-2);transition:all 0.2s;" style-hover="border-color:var(--ink);color:var(--ink);">Product Design</button>
       </div>
       <div id="projScroll" style="display:flex;gap:20px;overflow-x:auto;padding-bottom:24px;-webkit-overflow-scrolling:touch;scrollbar-width:thin;scrollbar-color:var(--line-2) transparent;">
         <sc-for list="{{ allProjects }}" as="project" hint-placeholder-count="6">
-          <a href="{{ project.href }}" data-project-card data-category="{{ project.categoryStr }}" data-featured="{{ project.featuredFlag }}" style="flex:none;width:320px;text-decoration:none;background:var(--surface);border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);display:flex;flex-direction:column;will-change:transform;transition:transform 0.4s cubic-bezier(0.4,0,0.2,1),box-shadow 0.4s,border-color 0.3s;" style-hover="transform:translateY(-6px);box-shadow:0 22px 54px rgba(28,27,25,0.1);border-color:var(--accent);">
+          <a href="{{ project.href }}" data-project-card="" data-category="{{ project.categoryStr }}" data-featured="{{ project.featuredFlag }}" style="flex:none;width:320px;text-decoration:none;background:var(--surface);border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);display:flex;flex-direction:column;will-change:transform;transition:transform 0.4s cubic-bezier(0.4,0,0.2,1),box-shadow 0.4s,border-color 0.3s;" style-hover="transform:translateY(-6px);box-shadow:0 22px 54px rgba(28,27,25,0.1);border-color:var(--accent);">
             <div style="height:220px;background-color:{{ project.cardBg }};border-bottom:1px solid var(--line);position:relative;flex-shrink:0;overflow:hidden;">
               <image-slot id="card-{{ project.id }}" src="{{ project.cardSrc }}" fit="{{ project.cardFit }}" placeholder="{{ project.image }}" shape="rect" style="position:absolute;inset:0;width:100%;height:100%;"></image-slot>
               <div style="position:absolute;right:10px;bottom:-6px;font-family:'Manrope',sans-serif;font-size:100px;font-weight:800;color:rgba(28,27,25,0.055);line-height:1;user-select:none;pointer-events:none;z-index:2;">{{ project.indexNum }}</div>
@@ -219,13 +218,13 @@
 
   <!-- SKILLS — warm carbon dark -->
   <section id="skills" style="background:var(--dark);padding:clamp(64px,9vw,96px) 0;">
-    <div data-container style="max-width:1120px;margin:0 auto;padding:0 40px;">
-      <div data-fade style="opacity:0;transform:translateY(22px);transition:opacity 0.7s cubic-bezier(0.4,0,0.2,1),transform 0.7s cubic-bezier(0.4,0,0.2,1);margin-bottom:52px;padding-left:16px;border-left:2px solid var(--accent-light);">
+    <div data-container="" style="max-width:1120px;margin:0 auto;padding:0 40px;">
+      <div data-fade="" style="opacity:0;transform:translateY(22px);transition:opacity 0.7s cubic-bezier(0.4,0,0.2,1),transform 0.7s cubic-bezier(0.4,0,0.2,1);margin-bottom:52px;padding-left:16px;border-left:2px solid var(--accent-light);">
         <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:500;letter-spacing:0.1em;text-transform:uppercase;color:var(--accent-light);margin-bottom:10px;">03 — Technical Stack</div>
         <h2 style="font-family:'Manrope',sans-serif;font-size:clamp(28px,3.4vw,42px);font-weight:700;color:#e8e6e0;margin:0;letter-spacing:-0.025em;line-height:1.1;">Tools &amp; Skills</h2>
       </div>
       <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(175px,1fr));gap:44px 52px;">
-        <div data-fade style="opacity:0;transform:translateY(18px);transition:opacity 0.6s cubic-bezier(0.4,0,0.2,1),transform 0.6s cubic-bezier(0.4,0,0.2,1);">
+        <div data-fade="" style="opacity:0;transform:translateY(18px);transition:opacity 0.6s cubic-bezier(0.4,0,0.2,1),transform 0.6s cubic-bezier(0.4,0,0.2,1);">
           <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:var(--accent-light);margin-bottom:18px;">CAD</div>
           <div style="display:flex;flex-direction:column;gap:12px;">
             <span style="font-size:15px;color:#ccc9c2;font-weight:500;transition:color 0.2s,transform 0.25s cubic-bezier(0.4,0,0.2,1);display:inline-block;cursor:default;" style-hover="color:#e8e6e0;transform:translateX(4px);">SolidWorks</span>
@@ -233,7 +232,7 @@
             <span style="font-size:15px;color:#ccc9c2;font-weight:500;transition:color 0.2s,transform 0.25s cubic-bezier(0.4,0,0.2,1);display:inline-block;cursor:default;" style-hover="color:#e8e6e0;transform:translateX(4px);">CATIA</span>
           </div>
         </div>
-        <div data-fade style="opacity:0;transform:translateY(18px);transition:opacity 0.6s 0.07s cubic-bezier(0.4,0,0.2,1),transform 0.6s 0.07s cubic-bezier(0.4,0,0.2,1);">
+        <div data-fade="" style="opacity:0;transform:translateY(18px);transition:opacity 0.6s 0.07s cubic-bezier(0.4,0,0.2,1),transform 0.6s 0.07s cubic-bezier(0.4,0,0.2,1);">
           <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:var(--accent-light);margin-bottom:18px;">Analysis</div>
           <div style="display:flex;flex-direction:column;gap:12px;">
             <span style="font-size:15px;color:#ccc9c2;font-weight:500;transition:color 0.2s,transform 0.25s cubic-bezier(0.4,0,0.2,1);display:inline-block;cursor:default;" style-hover="color:#e8e6e0;transform:translateX(4px);">ANSYS</span>
@@ -241,7 +240,7 @@
             <span style="font-size:15px;color:#ccc9c2;font-weight:500;transition:color 0.2s,transform 0.25s cubic-bezier(0.4,0,0.2,1);display:inline-block;cursor:default;" style-hover="color:#e8e6e0;transform:translateX(4px);">MATLAB</span>
           </div>
         </div>
-        <div data-fade style="opacity:0;transform:translateY(18px);transition:opacity 0.6s 0.14s cubic-bezier(0.4,0,0.2,1),transform 0.6s 0.14s cubic-bezier(0.4,0,0.2,1);">
+        <div data-fade="" style="opacity:0;transform:translateY(18px);transition:opacity 0.6s 0.14s cubic-bezier(0.4,0,0.2,1),transform 0.6s 0.14s cubic-bezier(0.4,0,0.2,1);">
           <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:var(--accent-light);margin-bottom:18px;">3D Printing</div>
           <div style="display:flex;flex-direction:column;gap:12px;">
             <span style="font-size:15px;color:#ccc9c2;font-weight:500;transition:color 0.2s,transform 0.25s cubic-bezier(0.4,0,0.2,1);display:inline-block;cursor:default;" style-hover="color:#e8e6e0;transform:translateX(4px);">FDM 3D Printing</span>
@@ -250,7 +249,7 @@
             <span style="font-size:15px;color:#ccc9c2;font-weight:500;transition:color 0.2s,transform 0.25s cubic-bezier(0.4,0,0.2,1);display:inline-block;cursor:default;" style-hover="color:#e8e6e0;transform:translateX(4px);">Rapid Iteration</span>
           </div>
         </div>
-        <div data-fade style="opacity:0;transform:translateY(18px);transition:opacity 0.6s 0.21s cubic-bezier(0.4,0,0.2,1),transform 0.6s 0.21s cubic-bezier(0.4,0,0.2,1);">
+        <div data-fade="" style="opacity:0;transform:translateY(18px);transition:opacity 0.6s 0.21s cubic-bezier(0.4,0,0.2,1),transform 0.6s 0.21s cubic-bezier(0.4,0,0.2,1);">
           <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:var(--accent-light);margin-bottom:18px;">Manufacturing</div>
           <div style="display:flex;flex-direction:column;gap:12px;">
             <span style="font-size:15px;color:#ccc9c2;font-weight:500;transition:color 0.2s,transform 0.25s cubic-bezier(0.4,0,0.2,1);display:inline-block;cursor:default;" style-hover="color:#e8e6e0;transform:translateX(4px);">Injection Molding</span>
@@ -259,7 +258,7 @@
             <span style="font-size:15px;color:#ccc9c2;font-weight:500;transition:color 0.2s,transform 0.25s cubic-bezier(0.4,0,0.2,1);display:inline-block;cursor:default;" style-hover="color:#e8e6e0;transform:translateX(4px);">2D Drawings &amp; BOMs</span>
           </div>
         </div>
-        <div data-fade style="opacity:0;transform:translateY(18px);transition:opacity 0.6s 0.28s cubic-bezier(0.4,0,0.2,1),transform 0.6s 0.28s cubic-bezier(0.4,0,0.2,1);">
+        <div data-fade="" style="opacity:0;transform:translateY(18px);transition:opacity 0.6s 0.28s cubic-bezier(0.4,0,0.2,1),transform 0.6s 0.28s cubic-bezier(0.4,0,0.2,1);">
           <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:var(--accent-light);margin-bottom:18px;">Mechanical Systems</div>
           <div style="display:flex;flex-direction:column;gap:12px;">
             <span style="font-size:15px;color:#ccc9c2;font-weight:500;transition:color 0.2s,transform 0.25s cubic-bezier(0.4,0,0.2,1);display:inline-block;cursor:default;" style-hover="color:#e8e6e0;transform:translateX(4px);">Mechanisms &amp; Linkages</span>
@@ -274,9 +273,9 @@
 
   <!-- ABOUT -->
   <section id="about" style="background:var(--surface);padding:clamp(60px,8vw,88px) 0;">
-    <div data-container style="max-width:1120px;margin:0 auto;padding:0 40px;">
-      <div data-2col style="display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:start;">
-        <div data-fade style="opacity:0;transform:translateY(22px);transition:opacity 0.7s cubic-bezier(0.4,0,0.2,1),transform 0.7s cubic-bezier(0.4,0,0.2,1);">
+    <div data-container="" style="max-width:1120px;margin:0 auto;padding:0 40px;">
+      <div data-2col="" style="display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:start;">
+        <div data-fade="" style="opacity:0;transform:translateY(22px);transition:opacity 0.7s cubic-bezier(0.4,0,0.2,1),transform 0.7s cubic-bezier(0.4,0,0.2,1);">
           <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:500;letter-spacing:0.1em;text-transform:uppercase;color:var(--accent);margin-bottom:14px;">04 — About</div>
           <h2 style="font-family:'Manrope',sans-serif;font-size:clamp(24px,2.8vw,34px);font-weight:700;color:var(--ink);margin:0 0 20px;letter-spacing:-0.025em;line-height:1.15;text-wrap:balance;">Engineering background. Hands-on approach.</h2>
           <p style="font-size:16px;color:var(--ink-2);line-height:1.72;margin:0 0 16px;text-wrap:pretty;">I'm a mechanical engineering and product design specialist focused on functional CAD, prototyping, FEA, and design for manufacturing. My work combines hands-on 3D printing experience with mechanical analysis and practical product development.</p>
@@ -291,7 +290,7 @@
             </div>
           </div>
         </div>
-        <div data-fade style="opacity:0;transform:translateY(22px);transition:opacity 0.7s 0.12s cubic-bezier(0.4,0,0.2,1),transform 0.7s 0.12s cubic-bezier(0.4,0,0.2,1);">
+        <div data-fade="" style="opacity:0;transform:translateY(22px);transition:opacity 0.7s 0.12s cubic-bezier(0.4,0,0.2,1),transform 0.7s 0.12s cubic-bezier(0.4,0,0.2,1);">
           <div style="display:flex;flex-direction:column;">
             <div style="display:flex;align-items:center;gap:14px;padding:16px 0;border-bottom:1px solid var(--line);transition:transform 0.25s cubic-bezier(0.4,0,0.2,1);" style-hover="transform:translateX(5px);">
               <div style="width:32px;height:32px;border-radius:3px;background:var(--paper);display:flex;align-items:center;justify-content:center;flex-shrink:0;">
@@ -331,7 +330,7 @@
 
   <!-- CONTACT -->
   <section id="contact" style="background:var(--dark);padding:clamp(80px,10vw,120px) 0;">
-    <div data-container style="max-width:1120px;margin:0 auto;padding:0 40px;">
+    <div data-container="" style="max-width:1120px;margin:0 auto;padding:0 40px;">
       <div style="max-width:640px;">
         <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:500;letter-spacing:0.1em;text-transform:uppercase;color:var(--accent-light);margin-bottom:16px;">05 — Get in Touch</div>
         <h2 style="font-family:'Manrope',sans-serif;font-size:clamp(30px,4vw,52px);font-weight:700;color:#e8e6e0;margin:0 0 18px;letter-spacing:-0.03em;line-height:1.08;text-wrap:balance;">Have a product, prototype, or CAD problem?</h2>
@@ -349,7 +348,7 @@
 
   <!-- FOOTER -->
   <footer style="background:#0e0d0c;padding:22px 0;">
-    <div data-container style="max-width:1120px;margin:0 auto;padding:0 40px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;">
+    <div data-container="" style="max-width:1120px;margin:0 auto;padding:0 40px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;">
       <span style="font-family:'Manrope',sans-serif;font-size:13px;font-weight:600;color:rgba(232,230,224,0.2);">Youssef Radi</span>
       <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;color:rgba(232,230,224,0.16);letter-spacing:0.06em;">Mechanical Product Design · CAD · FEA · Prototyping</span>
       <a href="#overview" style="display:inline-flex;align-items:center;gap:6px;font-family:'IBM Plex Mono',monospace;font-size:10px;color:rgba(232,230,224,0.4);letter-spacing:0.08em;text-transform:uppercase;text-decoration:none;transition:color 0.2s;" style-hover="color:#e8e6e0;">Back to top
@@ -366,7 +365,7 @@
 <div style="background:var(--paper);min-height:100vh;">
 
   <header style="position:sticky;top:0;z-index:100;background:rgba(241,239,233,0.92);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border-bottom:1px solid var(--line);">
-    <div data-container style="max-width:1000px;margin:0 auto;padding:0 40px;height:52px;display:flex;align-items:center;justify-content:space-between;">
+    <div data-container="" style="max-width:1000px;margin:0 auto;padding:0 40px;height:52px;display:flex;align-items:center;justify-content:space-between;">
       <a href="#/" style="font-family:'Manrope',sans-serif;font-size:15px;font-weight:700;color:var(--ink);text-decoration:none;letter-spacing:-0.02em;transition:opacity 0.2s;" style-hover="opacity:0.5;">Youssef Radi</a>
       <div style="display:flex;align-items:center;gap:20px;">
         <a href="#/" style="display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--ink-2);text-decoration:none;font-weight:500;transition:color 0.2s,transform 0.25s cubic-bezier(0.4,0,0.2,1);" style-hover="color:var(--ink);transform:translateX(-3px);">
@@ -378,13 +377,13 @@
     </div>
   </header>
 
-  <article data-container style="max-width:1000px;margin:0 auto;padding:0 40px 96px;">
+  <article data-container="" style="max-width:1000px;margin:0 auto;padding:0 40px 96px;">
 
     <div style="padding:52px 0 32px;">
-      <div data-fade style="font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:500;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink-3);margin-bottom:14px;opacity:0;transform:translateY(14px);transition:opacity 0.6s cubic-bezier(0.4,0,0.2,1),transform 0.6s cubic-bezier(0.4,0,0.2,1);">{{ detail.indexLabel }} · {{ detail.catLabel }}</div>
-      <h1 data-fade style="font-family:'Manrope',sans-serif;font-size:clamp(30px,4.8vw,54px);font-weight:700;color:var(--ink);margin:0 0 12px;line-height:1.06;letter-spacing:-0.03em;text-wrap:balance;opacity:0;transform:translateY(14px);transition:opacity 0.6s 0.06s cubic-bezier(0.4,0,0.2,1),transform 0.6s 0.06s cubic-bezier(0.4,0,0.2,1);">{{ detail.title }}</h1>
-      <p data-fade style="font-size:clamp(15px,1.8vw,19px);color:var(--ink-2);font-weight:500;margin:0 0 22px;opacity:0;transform:translateY(14px);transition:opacity 0.6s 0.12s cubic-bezier(0.4,0,0.2,1),transform 0.6s 0.12s cubic-bezier(0.4,0,0.2,1);">{{ detail.subtitle }}</p>
-      <div data-fade style="display:flex;flex-wrap:wrap;gap:6px;opacity:0;transform:translateY(14px);transition:opacity 0.6s 0.18s cubic-bezier(0.4,0,0.2,1),transform 0.6s 0.18s cubic-bezier(0.4,0,0.2,1);">
+      <div data-fade="" style="font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:500;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink-3);margin-bottom:14px;opacity:0;transform:translateY(14px);transition:opacity 0.6s cubic-bezier(0.4,0,0.2,1),transform 0.6s cubic-bezier(0.4,0,0.2,1);">{{ detail.indexLabel }} · {{ detail.catLabel }}</div>
+      <h1 data-fade="" style="font-family:'Manrope',sans-serif;font-size:clamp(30px,4.8vw,54px);font-weight:700;color:var(--ink);margin:0 0 12px;line-height:1.06;letter-spacing:-0.03em;text-wrap:balance;opacity:0;transform:translateY(14px);transition:opacity 0.6s 0.06s cubic-bezier(0.4,0,0.2,1),transform 0.6s 0.06s cubic-bezier(0.4,0,0.2,1);">{{ detail.title }}</h1>
+      <p data-fade="" style="font-size:clamp(15px,1.8vw,19px);color:var(--ink-2);font-weight:500;margin:0 0 22px;opacity:0;transform:translateY(14px);transition:opacity 0.6s 0.12s cubic-bezier(0.4,0,0.2,1),transform 0.6s 0.12s cubic-bezier(0.4,0,0.2,1);">{{ detail.subtitle }}</p>
+      <div data-fade="" style="display:flex;flex-wrap:wrap;gap:6px;opacity:0;transform:translateY(14px);transition:opacity 0.6s 0.18s cubic-bezier(0.4,0,0.2,1),transform 0.6s 0.18s cubic-bezier(0.4,0,0.2,1);">
         <sc-for list="{{ detail.tags }}" as="tag" hint-placeholder-count="4">
           <span style="font-size:11px;font-weight:500;padding:4px 11px;border-radius:3px;border:1px solid var(--line-2);color:var(--ink-2);white-space:nowrap;font-family:'IBM Plex Mono',monospace;letter-spacing:0.02em;">{{ tag }}</span>
         </sc-for>
@@ -411,7 +410,7 @@
       </div>
     </sc-if>
 
-    <div data-2col style="display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:48px;">
+    <div data-2col="" style="display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:48px;">
       <div style="background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:24px;">
         <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:var(--ink-3);margin-bottom:10px;">The Problem</div>
         <p style="font-size:15px;color:var(--ink-2);line-height:1.68;margin:0;">{{ detail.problem }}</p>
@@ -474,7 +473,7 @@
     <sc-if value="{{ detail.hasSpecs }}" hint-placeholder-val="{{ false }}">
       <div style="margin-bottom:48px;">
         <h2 style="font-family:'Manrope',sans-serif;font-size:22px;font-weight:700;color:var(--ink);margin:0 0 22px;letter-spacing:-0.02em;">Specifications</h2>
-        <div data-2col style="display:grid;grid-template-columns:1fr 1fr;gap:0 40px;border-top:1px solid var(--line);">
+        <div data-2col="" style="display:grid;grid-template-columns:1fr 1fr;gap:0 40px;border-top:1px solid var(--line);">
           <sc-for list="{{ detail.specs }}" as="spec" hint-placeholder-count="6">
             <div style="display:flex;justify-content:space-between;align-items:baseline;gap:18px;padding:13px 0;border-bottom:1px solid var(--line);">
               <span style="flex-shrink:0;font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--ink-3);">{{ spec.k }}</span>
@@ -503,7 +502,7 @@
       </div>
     </div>
 
-    <div data-2col style="display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-bottom:48px;">
+    <div data-2col="" style="display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-bottom:48px;">
       <div>
         <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:var(--ink-3);margin-bottom:12px;">Tools</div>
         <div style="display:flex;flex-wrap:wrap;gap:6px;">
@@ -533,7 +532,7 @@
       </sc-if>
     </div>
 
-    <div data-2col style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:44px;">
+    <div data-2col="" style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:44px;">
       <a href="{{ prevProj.href }}" style="display:flex;flex-direction:column;gap:10px;padding:22px 24px;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);text-decoration:none;transition:border-color 0.2s,transform 0.3s cubic-bezier(0.4,0,0.2,1),box-shadow 0.3s;" style-hover="border-color:var(--accent);transform:translateY(-3px);box-shadow:0 14px 34px rgba(28,27,25,0.08);">
         <span style="display:inline-flex;align-items:center;gap:6px;font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink-3);">
           <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
@@ -587,6 +586,65 @@
 <script type="text/x-dc" data-dc-script data-props="{&quot;accent&quot;:{&quot;editor&quot;:&quot;color&quot;,&quot;default&quot;:&quot;#1e5068&quot;,&quot;tsType&quot;:&quot;string&quot;},&quot;cornerRadius&quot;:{&quot;editor&quot;:&quot;int&quot;,&quot;default&quot;:4,&quot;min&quot;:2,&quot;max&quot;:12,&quot;tsType&quot;:&quot;number&quot;}}">
 
 const PROJECTS = [
+  {
+    id: 'coachcube', category: ['mechanical', 'product-design'], featured: true,
+    title: 'CoachCube AI Training-Pod Cable Rig — Commercial-Duty Steel Cable Machine',
+    subtitle: 'Capstan Cable Resistance · Welded Steel Frame · BS 8888 Drawings · DFMA',
+    image: 'CoachCube cable rig — welded steel frame CAD assembly',
+    tags: ['Mechanical Design', 'Cable Mechanism', 'Capstan Drive', 'Steel Fabrication', 'BS 8888 Drawings', 'ISO 2553 Welds', 'DFMA', 'BOM'],
+    short: 'Mechanical design of a commercial-duty freestanding steel cable-resistance rig for CoachCube.ai, a walk-in AI training pod. I owned the frame architecture, capstan/cable module layout, DFMA, and a full BS 8888 / ISO 2553 fabrication drawing package.',
+    stats: [
+      { label: 'Structure', value: 'Freestanding welded steel rig' },
+      { label: 'Frame Member', value: '50 × 50 mm SHS · S355' },
+      { label: 'Resistance', value: 'Capstan-driven cable per side' },
+      { label: 'Documentation', value: 'BS 8888 · ISO 2553 welds' }
+    ],
+    problem: 'A walk-in AI training pod needed a compact strength rig inside its cube envelope — carrying high cable loads across many pull directions, staying serviceable through repeated commercial use, with fabrication drawings clean enough to hand straight to a supplier and replicate across installations.',
+    role: 'Freelance mechanical design engineer. Owned the internal cable rig end to end: frame architecture, cable/pulley routing, capstan integration, load-path and stability analysis, DFMA, weld and fabrication drawings, and BOM-ready outputs — turning a product concept into manufacturable hardware.',
+    process: [
+      'Captured requirements and pinned the governing design questions: per-cable vs. combined load, freestanding vs. floor-bolted, and the internal cube envelope.',
+      'Set the architecture — two uprights, a top crossbeam, bracing, motor/capstan housings, and a single cable path per side, routed through pulleys to a driven capstan drum.',
+      'Sized resistance around a capstan drive: cable tension ≈ motor torque ÷ capstan radius, keeping a near-constant effective radius for predictable resistance and long cable travel.',
+      'Structured the frame as welded S275/S355 hollow sections with bolted motor/capstan/pulley modules for serviceability, and laser-cut plate brackets and gussets on the loaded paths.',
+      'Treated commercial-duty risks as design drivers — multi-directional cable forces, overturning/stability, weld and bolt fatigue, and repeatable fabrication.',
+      'Produced the fabrication drawing package to BS 8888 with ISO 2553 weld symbols, plus a BOM-ready assembly structure for supplier handoff.'
+    ],
+    decisions: [
+      { pre: 'Chose a ', mid: 'capstan-driven cable', post: ' over a winch-style spool — the cable wraps a driven drum without accumulating on it, keeping the effective radius (and therefore the resistance) consistent across long cable travel.' },
+      { pre: 'Made the primary structure a ', mid: 'welded S355 hollow-section frame', post: ' with bolted service modules — welds carry the permanent load path, bolts keep motors, capstans, and pulleys serviceable.' },
+      { pre: 'Flagged a ', mid: 'structurally unsafe pulley-bracket hole', post: ' with only ~1.5 mm of remaining tube ligament and redesigned the load path with reinforcement and better edge distance rather than trusting it.' },
+      { pre: 'Kept the joints ', mid: 'DFMA-friendly and repeatable', post: ' — standard hollow sections, laser-cut symmetrical plates, threaded insert blocks for hollow-section bolting, and press-brake sheet brackets — so the rig can be built the same way across multiple pods.' },
+      { pre: 'Documented to ', mid: 'BS 8888 with ISO 2553 weld symbols', post: ' (135 MAG, a3 continuous fillet welds specified on the drawing rather than only modelled) so a fabricator can quote and build straight from the pack.' }
+    ],
+    specs: [
+      { k: 'Product', v: 'CoachCube.ai walk-in AI training pod' },
+      { k: 'System', v: 'Freestanding steel cable-resistance rig' },
+      { k: 'Resistance', v: 'Capstan-driven cable, one path per side' },
+      { k: 'Frame', v: 'S275/S355 hollow section + laser-cut plate' },
+      { k: 'Base section', v: '50 × 50 mm SHS · S355J2H' },
+      { k: 'Joining', v: 'MAG weld (135) structure + bolted modules' },
+      { k: 'Weld spec', v: 'a3 continuous fillet · BS EN ISO 2553' },
+      { k: 'Brackets', v: 'Laser-cut S355J2 plate + press-brake S275JR' },
+      { k: 'Finish', v: 'Powder coat after surface prep' },
+      { k: 'Drawing std', v: 'BS 8888 · ISO 2768 / ISO 13920 tolerances' },
+      { k: 'CAD', v: 'SolidWorks assembly + STEP export' }
+    ],
+    cardSrc: 'assets/coachcube/dwg-general-assembly.png',
+    cardFit: 'contain',
+    cardBg: '#ffffff',
+    heroSrc: 'assets/coachcube/dwg-general-assembly.png',
+    heroBg: '#ffffff',
+    gallery: [
+      { src: 'assets/coachcube/dwg-general-assembly.png', bg: '#ffffff', label: 'General-assembly drawing — full freestanding rig envelope with orthographic and isometric views and a 17-item BOM covering hollow sections, pulleys, capstan/motor housings, and brackets.' },
+      { src: 'assets/coachcube/dwg-hollow-section.png', bg: '#ffffff', label: '50 × 50 mm base hollow-section weldment — documented to BS 8888 with BS EN ISO 2553 weld symbols (3× a3 continuous fillet welds) and M10 clearance holes.' },
+      { src: 'assets/coachcube/dwg-tri-bracket.png', bg: '#ffffff', label: 'Triangular bottom-pulley bracket — 8 mm S355J2 laser-cut plate carrying the lower pulley shaft, fully dimensioned and toleranced to BS 8888.' },
+      { src: 'assets/coachcube/dwg-l-bracket.png', bg: '#ffffff', label: 'Press-brake L-bracket floor support — 3 mm S275JR sheet with an R3 inside bend radius, welded to the base section for anchoring and stability.' }
+    ],
+    tools: ['SolidWorks', 'DFMA', 'Steel Fabrication', 'Cable / Pulley Mechanisms', 'Capstan Drive', 'BS 8888', 'ISO 2553 Weld Symbols', 'STEP / BOM'],
+    deliverables: ['3D CAD assembly + STEP export', 'General-assembly drawing + BOM', 'Fabrication & weld drawings (BS 8888 / ISO 2553)', 'Laser-cut plate bracket details', 'Press-brake sheet-metal brackets', 'Structural check strategy (load cases, stability, welds/bolts)'],
+    result: 'A commercial-duty freestanding steel cable rig: capstan-driven resistance, a welded hollow-section frame with bolted service modules, and a full BS 8888 / ISO 2553 fabrication package — general assembly, weldment, and bracket drawings with a BOM — ready for supplier quoting and prototype fabrication.',
+    disclaimer: 'Freelance mechanical design for CoachCube.ai · ongoing / in development. Shown with client-safe public detail only.'
+  },
   {
     id: 'heartvalve', category: ['product-design', 'mechanical'], featured: false,
     title: 'Mechanical Heart Valve Prototyping for Research',
@@ -644,125 +702,6 @@ const PROJECTS = [
     deliverables: ['Interchangeable valve geometry set (healthy → stenotic)', 'Silicone casting process + sacrificial PLA molds', 'Instrumented mock circulatory loop', 'Pressure / sound / endoscopic test data', 'Cross-sectional opening-area comparison'],
     result: 'A set of interchangeable compliant silicone valves with controlled, repeatable stenosis, plus an instrumented mock loop to test them under matched conditions. The rig captured pressure, flow-generated sound, and endoscopic video across the valve set — feeding downstream CFD validation and an ML classification dataset.',
     disclaimer: 'Research prototyping project. The CFD model validation and ML dataset classification were handled by other team members and are intentionally excluded here.'
-  },
-  {
-    id: 'chess', category: ['mechatronics', 'product-design', '3d-printing'], featured: false,
-    title: 'Smart Chessboard with Embedded Sensing & AI Feedback',
-    subtitle: 'Hall-Effect Sensing · ESP32 Chess Engine · LED Move Feedback',
-    image: 'Smart chessboard — Hall-effect sensing matrix + LED feedback prototype',
-    cardSrc: 'assets/chess/board.png',
-    cardFit: 'cover',
-    cardBg: '#e9e2d6',
-    heroSrc: 'assets/chess/board.png',
-    heroBg: '#e9e2d6',
-    tags: ['Mechatronics', 'Embedded Systems', 'Hall-Effect Sensing', 'ESP32', 'PCB / Wiring', '3D Printing'],
-    short: 'A physical chessboard that detects piece movement in real time and gives AI-driven move validation and suggestions. An 8×8 Hall-effect sensor matrix reads magnet-embedded pieces, an ESP32 runs an embedded chess engine, and an LED layer highlights legal and recommended moves — with no motors and no moving parts.',
-    stats: [
-      { label: 'Sensing', value: '8×8 Hall-effect matrix' },
-      { label: 'Compute', value: 'ESP32 + embedded chess engine' },
-      { label: 'Feedback', value: 'Per-square LED move highlighting' },
-      { label: 'Outcome', value: 'Funded for PCB development' }
-    ],
-    problem: 'Digital trainers pull players off a real board; ordinary boards give no feedback. The goal: a board you play with real pieces that still detects every move in real time, validates it against a chess engine, and shows legal and recommended moves — with no motors or moving parts.',
-    role: 'Owned the full mechatronic build end to end: system architecture, magnetic sensing and state-tracking, the multi-layer 3D-printed board (CAD), the embedded firmware (detection, move validation, turn management, LEDs), and all wiring, testing, and debugging.',
-    process: [
-      'Defined the functional requirements and overall system architecture — sensing layer, LED layer, controller, and multiplexing.',
-      'Selected and integrated a chess engine compatible with the ESP32 microcontroller.',
-      'Designed the sensing logic and state-tracking flowcharts for detecting and interpreting piece movement.',
-      'Developed the multi-layer board in CAD and 3D printed a functional prototype built for serviceability and wiring.',
-      'Wrote embedded firmware for piece detection, move validation, turn management, and LED control logic.',
-      'Built, wired, tested, and debugged the full hardware system into a working proof of concept.'
-    ],
-    decisions: [
-      { pre: 'Detected pieces with an ', mid: '8×8 Hall-effect sensor matrix', post: ' reading a magnet embedded in each piece — reliable, contactless position sensing with no cameras or mechanical switches.' },
-      { pre: 'Kept the board ', mid: 'motionless — no motors or moving parts', post: ' — using an LED indication layer to highlight legal and recommended moves instead of physically moving pieces.' },
-      { pre: 'Ran an ', mid: 'embedded chess engine on the ESP32', post: ' so move validation and suggestions happen on-board, without a tethered computer.' },
-      { pre: 'Used ', mid: 'multiplexers, demultiplexers, and logic gates', post: ' to address the 64-cell sensor and LED grids efficiently from a limited number of microcontroller pins.' },
-      { pre: 'Designed a ', mid: 'multi-layer board for serviceability', post: ' — separating the play surface, LED layer, and sensor/wiring layers so the dense wiring stays accessible and repairable.' }
-    ],
-    specs: [
-      { k: 'Sensing', v: '8×8 Hall-effect sensor matrix' },
-      { k: 'Detection', v: 'Magnet embedded in each piece' },
-      { k: 'Controller', v: 'ESP32 microcontroller' },
-      { k: 'Engine', v: 'Embedded, ESP32-compatible chess engine' },
-      { k: 'Feedback', v: 'Per-square LED move highlighting' },
-      { k: 'Addressing', v: 'Multiplexers / demultiplexers / logic gates' },
-      { k: 'Structure', v: 'Multi-layer 3D-printed board' },
-      { k: 'Board grid', v: '425 mm · modular 64-square grid + base' },
-      { k: 'Moving parts', v: 'None (sensing + LEDs only)' },
-      { k: 'CAD', v: 'SolidWorks assembly + drawings' }
-    ],
-    gallery: [
-      { src: 'assets/chess/board.png', bg: '#e9e2d6', label: 'The finished board — a modular play surface of interchangeable 3D-printed snap-in tiles (loose tiles at right), each seated above a sensor cell for a clean, serviceable top.' },
-      { src: 'assets/chess/prototype.png', bg: '#e7e5e0', label: 'Working prototype — the multi-layer board with the Hall-effect sensor matrix, LED layer, and ESP32 wiring integrated beneath the play surface.' },
-      { src: 'assets/chess/sensing-diagram.png', bg: '#17161a', label: 'How it works — a magnet in each piece is read by the sensor grid; when a piece is lifted, LEDs highlight the legal and engine-recommended destination squares in real time.' },
-      { src: 'assets/chess/assembly-drawing.png', bg: '#ffffff', label: 'SolidWorks assembly drawing — the modular board: a mid grid, 64 interchangeable black/white grid pieces, and a base, dimensioned for 3D printing and assembly.' }
-    ],
-    tools: ['SolidWorks', 'ESP32 / Embedded C', 'Hall-Effect Sensors', 'Multiplexers / Logic', 'FDM 3D Printing', 'Chess Engine Integration'],
-    deliverables: ['System architecture & sensing flowcharts', 'Multi-layer board CAD + drawings', '3D-printed functional prototype', 'Embedded firmware (detection, validation, LEDs)', 'Wired, tested proof-of-concept hardware'],
-    result: 'A working proof of concept: real pieces, real-time magnetic detection, on-board move validation, and LED move guidance with no moving parts. The demonstrated prototype earned funding and lab access to continue toward PCB integration and a complete product.',
-    disclaimer: 'Mechatronics project — proof of concept. Funded for further development including PCB integration and system refinement.'
-  },
-  {
-    id: 'gym', category: ['mechatronics', 'mechanical'], featured: false,
-    title: 'Smart Compact Gym Machine — Motor-Driven Dual-Cable Resistance System',
-    subtitle: 'Cable/Pulley Resistance · Steel Weldment · FEA · Fabrication Drawings',
-    image: 'Smart gym machine — steel frame + cable/pulley CAD assembly',
-    tags: ['Mechanical Design', 'Cable/Pulley System', 'Steel Weldment', 'ANSYS FEA', 'Fabrication Drawings', 'BOM'],
-    short: 'Senior-thesis lead mechanical design of a wall-mounted smart home gym that replaces the weight stack with a motor-driven dual-cable resistance system — steel weldment, cable routing onto motor-mounted spools, three-case FEA, full fabrication drawings, and BOM. Built and bench-tested as a working prototype.',
-    stats: [
-      { label: 'Structural Design Load', value: '50 kg / arm (490.5 N)' },
-      { label: 'Worst-Case FOS', value: '2.15 at 109 MPa (45° pull)' },
-      { label: 'Resistance Tested', value: '5, 13 & 17 kg — smooth travel' },
-      { label: 'Envelope', value: '≤120×60×35 cm · <60 kg, wall-mounted' }
-    ],
-    problem: 'A weight stack is bulky, heavy, and fixed. Replace it with a compact, wall-mounted, motor-driven cable system giving smooth adjustable resistance on both concentric and eccentric phases — while proving the steel structure carries a 50 kg-per-arm load within a 9,830 EGP budget.',
-    role: 'Lead on mechanical design for a team of 6: owned frame geometry, cable/pulley routing, motor-spool sizing, the full structural verification (hand calcs → ANSYS FEA → MITCalc weld/bolt checks), and all fabrication drawings and the BOM.',
-    process: [
-      'Set the architecture: two arms, each routing handle → guiding pulley → vertical slider pulley → top frame pulley → spool on a motor/gearbox shaft.',
-      'Sized resistance from F = T ÷ r — 4.22 Nm at a 20 mm spool radius gives ~211 N (~21.5 kg theoretical), de-rated with a safety factor to ~11–14 kg continuous.',
-      'Designed the steel weldment: 3 mm ST37 sheet with 37×37 mm SHS tube, TIG-welded structure and spot-welded locking nuts for the height-adjustable slider.',
-      'Ran hand calcs (bending, shear, deflection) as a sanity check, then ANSYS Discovery FEA for three governing load cases.',
-      'Verified every joint in MITCalc — M12 cl.8.8 wall anchors, M8 rail brackets, Ø10 arm pivot pin, motor-frame and pulley-shaft bolts.',
-      'Produced exploded views, a dimensioned assembly drawing, part drawings, and a full BOM — then fabricated and bench-tested the prototype.'
-    ],
-    decisions: [
-      { pre: 'Replaced the weight stack with a ', mid: 'motor-driven cable/spool system', post: ' — the motor resists as the cable unwinds (concentric) and controls rewind (eccentric), giving electronically adjustable resistance with no plates.' },
-      { pre: 'Sized the steel structure for a ', mid: '50 kg/arm design load', post: ' while deliberately fitting a budget-sized prototype motor (~11–14 kg) — so the mechanics and verification scale, and only the motor/electronics need uprating for production.' },
-      { pre: 'Made the slider ', mid: 'height-adjustable on a vertical rail', post: ', locked with a pin into spot-welded nuts, and the arms angle-adjustable at +45° / 0° / −45° to cover multiple exercises.' },
-      { pre: 'Switched braking through a ', mid: 'generator-mode control scheme', post: ' (ESP32 + encoder + MD10C driver + relays) — open circuit / resistive load / short circuit giving low / medium / high resistance.' },
-      { pre: 'Validated the worst case — the ', mid: '45° angled pull at 109 MPa', post: ' — keeping a factor of safety of 2.15 against ST37 yield, with welds and bolts checked separately in MITCalc.' }
-    ],
-    specs: [
-      { k: 'Design load', v: '50 kg/arm (490.5 N)' },
-      { k: 'Motor', v: 'Brushed DC + gearbox, Tokusho TD3120G' },
-      { k: 'Torque', v: '2.65 Nm rated / 6 Nm peak (4.22 Nm cont.)' },
-      { k: 'Gear reduction', v: '1:24 gearbox' },
-      { k: 'Spool', v: '20 mm radius (40 mm dia.)' },
-      { k: 'Cable', v: '5 mm nylon-coated steel · ~2000 kg · SF≈5' },
-      { k: 'Frame', v: 'Mild steel ST37 · 3 mm sheet + 37×37 SHS' },
-      { k: 'Joining', v: 'TIG (structural) + spot weld (lock nuts)' },
-      { k: 'Control', v: 'ESP32 · encoder · MD10C · 4 relays' },
-      { k: 'Envelope', v: '≤120×60×35 cm · <60 kg · wall-mounted' },
-      { k: 'Budget', v: '9,830 EGP (cap 10,000)' },
-      { k: 'Standards', v: 'ISO 20957, 12100, 13849 · IEC 61140 · EN 10025-2' }
-    ],
-    cardSrc: 'assets/gym/hero-arms.png',
-    cardFit: 'contain',
-    cardBg: '#ffffff',
-    heroSrc: 'assets/gym/hero-arms.png',
-    heroBg: '#ffffff',
-    gallery: [
-      { src: 'assets/gym/cad-assembly.png', bg: '#ffffff', label: 'Full CAD assembly — welded frame with the dual motor-and-spool drives, top guide pulleys, and one adjustable arm extended.' },
-      { src: 'assets/gym/cable-routing.png', bg: '#ffffff', label: 'Cable routing — each cable (red) runs handle → arm → slider → top pulleys → spool, with both motor/spool stages stacked inside the frame.' },
-      { src: 'assets/gym/fea-vonmises.png', bg: '#1f1f1f', label: 'ANSYS von Mises — the governing 45° angled-pull case peaks at 109 MPa, a factor of safety of 2.15 against ST37 yield (235 MPa).' },
-      { src: 'assets/gym/assembly-drawing.png', bg: '#ffffff', label: 'Dimensioned assembly drawing (SolidWorks) — 560 mm wide envelope, 1100 mm rail, with orthographic views and an itemised BOM.' },
-      { src: 'assets/gym/prototype-test.png', bg: '#000000', label: 'Fabricated prototype under bench test — welded steel frame, motor-driven spool, and the ESP32 control electronics during a resistance run.' }
-    ],
-    tools: ['SolidWorks', 'ANSYS Discovery', 'MITCalc', 'MATLAB', 'TIG / Spot Welding'],
-    deliverables: ['3D CAD assembly + exploded view', 'Dimensioned assembly drawing', 'Part drawings', 'Full BOM', 'MITCalc weld/bolt calc sheets', 'Three-case FEA report', 'Fabricated, bench-tested prototype'],
-    result: 'A complete mechanical design package and a working prototype: a wall-mounted dual-cable machine whose ST37 weldment was verified to 50 kg/arm across three FEA cases (worst case 109 MPa, FOS 2.15). The build held three resistance settings — 5, 13, and 17 kg — with smooth, spike-free force across full cable travel and stable motor behaviour over repeated cycles.',
-    disclaimer: 'Senior thesis · MENG 4981 · AUC, Fall 2025. Author was lead on mechanical design, structural calculations, and drawings for a 6-person team.'
   },
   {
     id: 'helmet', category: ['3d-printing', 'product-design'], featured: true,
@@ -825,63 +764,123 @@ const PROJECTS = [
     disclaimer: 'Prototype benchmark only — not a certified consumer helmet.'
   },
   {
-    id: 'coachcube', category: ['mechanical', 'product-design'], featured: true,
-    title: 'CoachCube AI Training-Pod Cable Rig — Commercial-Duty Steel Cable Machine',
-    subtitle: 'Capstan Cable Resistance · Welded Steel Frame · BS 8888 Drawings · DFMA',
-    image: 'CoachCube cable rig — welded steel frame CAD assembly',
-    tags: ['Mechanical Design', 'Cable Mechanism', 'Capstan Drive', 'Steel Fabrication', 'BS 8888 Drawings', 'ISO 2553 Welds', 'DFMA', 'BOM'],
-    short: 'Mechanical design of a commercial-duty freestanding steel cable-resistance rig for CoachCube.ai, a walk-in AI training pod. I owned the frame architecture, capstan/cable module layout, DFMA, and a full BS 8888 / ISO 2553 fabrication drawing package.',
+    id: 'chess', category: ['product-design', '3d-printing'], featured: false,
+    title: 'Smart Chessboard with Embedded Sensing & AI Feedback',
+    subtitle: 'Hall-Effect Sensing · ESP32 Chess Engine · LED Move Feedback',
+    image: 'Smart chessboard — Hall-effect sensing matrix + LED feedback prototype',
+    cardSrc: 'assets/chess/board.png',
+    cardFit: 'cover',
+    cardBg: '#e9e2d6',
+    heroSrc: 'assets/chess/board.png',
+    heroBg: '#e9e2d6',
+    tags: ['Mechatronics', 'Embedded Systems', 'Hall-Effect Sensing', 'ESP32', 'PCB / Wiring', '3D Printing'],
+    short: 'A physical chessboard that detects piece movement in real time and gives AI-driven move validation and suggestions. An 8×8 Hall-effect sensor matrix reads magnet-embedded pieces, an ESP32 runs an embedded chess engine, and an LED layer highlights legal and recommended moves — with no motors and no moving parts.',
     stats: [
-      { label: 'Structure', value: 'Freestanding welded steel rig' },
-      { label: 'Frame Member', value: '50 × 50 mm SHS · S355' },
-      { label: 'Resistance', value: 'Capstan-driven cable per side' },
-      { label: 'Documentation', value: 'BS 8888 · ISO 2553 welds' }
+      { label: 'Sensing', value: '8×8 Hall-effect matrix' },
+      { label: 'Compute', value: 'ESP32 + embedded chess engine' },
+      { label: 'Feedback', value: 'Per-square LED move highlighting' },
+      { label: 'Outcome', value: 'Funded for PCB development' }
     ],
-    problem: 'A walk-in AI training pod needed a compact strength rig inside its cube envelope — carrying high cable loads across many pull directions, staying serviceable through repeated commercial use, with fabrication drawings clean enough to hand straight to a supplier and replicate across installations.',
-    role: 'Freelance mechanical design engineer. Owned the internal cable rig end to end: frame architecture, cable/pulley routing, capstan integration, load-path and stability analysis, DFMA, weld and fabrication drawings, and BOM-ready outputs — turning a product concept into manufacturable hardware.',
+    problem: 'Digital trainers pull players off a real board; ordinary boards give no feedback. The goal: a board you play with real pieces that still detects every move in real time, validates it against a chess engine, and shows legal and recommended moves — with no motors or moving parts.',
+    role: 'Owned the full mechatronic build end to end: system architecture, magnetic sensing and state-tracking, the multi-layer 3D-printed board (CAD), the embedded firmware (detection, move validation, turn management, LEDs), and all wiring, testing, and debugging.',
     process: [
-      'Captured requirements and pinned the governing design questions: per-cable vs. combined load, freestanding vs. floor-bolted, and the internal cube envelope.',
-      'Set the architecture — two uprights, a top crossbeam, bracing, motor/capstan housings, and a single cable path per side, routed through pulleys to a driven capstan drum.',
-      'Sized resistance around a capstan drive: cable tension ≈ motor torque ÷ capstan radius, keeping a near-constant effective radius for predictable resistance and long cable travel.',
-      'Structured the frame as welded S275/S355 hollow sections with bolted motor/capstan/pulley modules for serviceability, and laser-cut plate brackets and gussets on the loaded paths.',
-      'Treated commercial-duty risks as design drivers — multi-directional cable forces, overturning/stability, weld and bolt fatigue, and repeatable fabrication.',
-      'Produced the fabrication drawing package to BS 8888 with ISO 2553 weld symbols, plus a BOM-ready assembly structure for supplier handoff.'
+      'Defined the functional requirements and overall system architecture — sensing layer, LED layer, controller, and multiplexing.',
+      'Selected and integrated a chess engine compatible with the ESP32 microcontroller.',
+      'Designed the sensing logic and state-tracking flowcharts for detecting and interpreting piece movement.',
+      'Developed the multi-layer board in CAD and 3D printed a functional prototype built for serviceability and wiring.',
+      'Wrote embedded firmware for piece detection, move validation, turn management, and LED control logic.',
+      'Built, wired, tested, and debugged the full hardware system into a working proof of concept.'
     ],
     decisions: [
-      { pre: 'Chose a ', mid: 'capstan-driven cable', post: ' over a winch-style spool — the cable wraps a driven drum without accumulating on it, keeping the effective radius (and therefore the resistance) consistent across long cable travel.' },
-      { pre: 'Made the primary structure a ', mid: 'welded S355 hollow-section frame', post: ' with bolted service modules — welds carry the permanent load path, bolts keep motors, capstans, and pulleys serviceable.' },
-      { pre: 'Flagged a ', mid: 'structurally unsafe pulley-bracket hole', post: ' with only ~1.5 mm of remaining tube ligament and redesigned the load path with reinforcement and better edge distance rather than trusting it.' },
-      { pre: 'Kept the joints ', mid: 'DFMA-friendly and repeatable', post: ' — standard hollow sections, laser-cut symmetrical plates, threaded insert blocks for hollow-section bolting, and press-brake sheet brackets — so the rig can be built the same way across multiple pods.' },
-      { pre: 'Documented to ', mid: 'BS 8888 with ISO 2553 weld symbols', post: ' (135 MAG, a3 continuous fillet welds specified on the drawing rather than only modelled) so a fabricator can quote and build straight from the pack.' }
+      { pre: 'Detected pieces with an ', mid: '8×8 Hall-effect sensor matrix', post: ' reading a magnet embedded in each piece — reliable, contactless position sensing with no cameras or mechanical switches.' },
+      { pre: 'Kept the board ', mid: 'motionless — no motors or moving parts', post: ' — using an LED indication layer to highlight legal and recommended moves instead of physically moving pieces.' },
+      { pre: 'Ran an ', mid: 'embedded chess engine on the ESP32', post: ' so move validation and suggestions happen on-board, without a tethered computer.' },
+      { pre: 'Used ', mid: 'multiplexers, demultiplexers, and logic gates', post: ' to address the 64-cell sensor and LED grids efficiently from a limited number of microcontroller pins.' },
+      { pre: 'Designed a ', mid: 'multi-layer board for serviceability', post: ' — separating the play surface, LED layer, and sensor/wiring layers so the dense wiring stays accessible and repairable.' }
     ],
     specs: [
-      { k: 'Product', v: 'CoachCube.ai walk-in AI training pod' },
-      { k: 'System', v: 'Freestanding steel cable-resistance rig' },
-      { k: 'Resistance', v: 'Capstan-driven cable, one path per side' },
-      { k: 'Frame', v: 'S275/S355 hollow section + laser-cut plate' },
-      { k: 'Base section', v: '50 × 50 mm SHS · S355J2H' },
-      { k: 'Joining', v: 'MAG weld (135) structure + bolted modules' },
-      { k: 'Weld spec', v: 'a3 continuous fillet · BS EN ISO 2553' },
-      { k: 'Brackets', v: 'Laser-cut S355J2 plate + press-brake S275JR' },
-      { k: 'Finish', v: 'Powder coat after surface prep' },
-      { k: 'Drawing std', v: 'BS 8888 · ISO 2768 / ISO 13920 tolerances' },
-      { k: 'CAD', v: 'SolidWorks assembly + STEP export' }
+      { k: 'Sensing', v: '8×8 Hall-effect sensor matrix' },
+      { k: 'Detection', v: 'Magnet embedded in each piece' },
+      { k: 'Controller', v: 'ESP32 microcontroller' },
+      { k: 'Engine', v: 'Embedded, ESP32-compatible chess engine' },
+      { k: 'Feedback', v: 'Per-square LED move highlighting' },
+      { k: 'Addressing', v: 'Multiplexers / demultiplexers / logic gates' },
+      { k: 'Structure', v: 'Multi-layer 3D-printed board' },
+      { k: 'Board grid', v: '425 mm · modular 64-square grid + base' },
+      { k: 'Moving parts', v: 'None (sensing + LEDs only)' },
+      { k: 'CAD', v: 'SolidWorks assembly + drawings' }
     ],
-    cardSrc: 'assets/coachcube/dwg-general-assembly.png',
+    gallery: [
+      { src: 'assets/chess/board.png', bg: '#e9e2d6', label: 'The finished board — a modular play surface of interchangeable 3D-printed snap-in tiles (loose tiles at right), each seated above a sensor cell for a clean, serviceable top.' },
+      { src: 'assets/chess/prototype.png', bg: '#e7e5e0', label: 'Working prototype — the multi-layer board with the Hall-effect sensor matrix, LED layer, and ESP32 wiring integrated beneath the play surface.' },
+      { src: 'assets/chess/sensing-diagram.png', bg: '#17161a', label: 'How it works — a magnet in each piece is read by the sensor grid; when a piece is lifted, LEDs highlight the legal and engine-recommended destination squares in real time.' },
+      { src: 'assets/chess/assembly-drawing.png', bg: '#ffffff', label: 'SolidWorks assembly drawing — the modular board: a mid grid, 64 interchangeable black/white grid pieces, and a base, dimensioned for 3D printing and assembly.' }
+    ],
+    tools: ['SolidWorks', 'ESP32 / Embedded C', 'Hall-Effect Sensors', 'Multiplexers / Logic', 'FDM 3D Printing', 'Chess Engine Integration'],
+    deliverables: ['System architecture & sensing flowcharts', 'Multi-layer board CAD + drawings', '3D-printed functional prototype', 'Embedded firmware (detection, validation, LEDs)', 'Wired, tested proof-of-concept hardware'],
+    result: 'A working proof of concept: real pieces, real-time magnetic detection, on-board move validation, and LED move guidance with no moving parts. The demonstrated prototype earned funding and lab access to continue toward PCB integration and a complete product.',
+    disclaimer: 'Mechatronics project — proof of concept. Funded for further development including PCB integration and system refinement.'
+  },
+  {
+    id: 'gearbox', category: ['mechanical'], featured: true,
+    title: 'Two-Stage Planetary Gearbox with Clutch Integration',
+    subtitle: 'Power Transmission · Component Sizing · CAD Assembly',
+    image: 'Planetary gearbox — full SolidWorks assembly',
+    cardSrc: 'assets/gearbox/gearbox-assembled.png',
     cardFit: 'contain',
     cardBg: '#ffffff',
-    heroSrc: 'assets/coachcube/dwg-general-assembly.png',
+    heroSrc: 'assets/gearbox/gearbox-two-stage.png',
     heroBg: '#ffffff',
-    gallery: [
-      { src: 'assets/coachcube/dwg-general-assembly.png', bg: '#ffffff', label: 'General-assembly drawing — full freestanding rig envelope with orthographic and isometric views and a 17-item BOM covering hollow sections, pulleys, capstan/motor housings, and brackets.' },
-      { src: 'assets/coachcube/dwg-hollow-section.png', bg: '#ffffff', label: '50 × 50 mm base hollow-section weldment — documented to BS 8888 with BS EN ISO 2553 weld symbols (3× a3 continuous fillet welds) and M10 clearance holes.' },
-      { src: 'assets/coachcube/dwg-tri-bracket.png', bg: '#ffffff', label: 'Triangular bottom-pulley bracket — 8 mm S355J2 laser-cut plate carrying the lower pulley shaft, fully dimensioned and toleranced to BS 8888.' },
-      { src: 'assets/coachcube/dwg-l-bracket.png', bg: '#ffffff', label: 'Press-brake L-bracket floor support — 3 mm S275JR sheet with an R3 inside bend radius, welded to the base section for anchoring and stability.' }
+    tags: ['Power Transmission', 'Planetary Gears', 'Component Sizing', 'Bearing Selection', 'SolidWorks'],
+    short: 'Designed a two-stage planetary gearbox with an integrated electromagnetic clutch for a construction-site hoisting application — sizing every load-bearing component from first-principles analysis through to a fully assembled, manufacturable SolidWorks model.',
+    stats: [
+      { label: 'Rated Power', value: '8 kW electric motor' },
+      { label: 'Input Speed', value: '~1480 rpm' },
+      { label: 'Output Speed', value: '~69 rpm at the drum' },
+      { label: 'Architecture', value: 'Two planetary stages + clutch' }
     ],
-    tools: ['SolidWorks', 'DFMA', 'Steel Fabrication', 'Cable / Pulley Mechanisms', 'Capstan Drive', 'BS 8888', 'ISO 2553 Weld Symbols', 'STEP / BOM'],
-    deliverables: ['3D CAD assembly + STEP export', 'General-assembly drawing + BOM', 'Fabrication & weld drawings (BS 8888 / ISO 2553)', 'Laser-cut plate bracket details', 'Press-brake sheet-metal brackets', 'Structural check strategy (load cases, stability, welds/bolts)'],
-    result: 'A commercial-duty freestanding steel cable rig: capstan-driven resistance, a welded hollow-section frame with bolted service modules, and a full BS 8888 / ISO 2553 fabrication package — general assembly, weldment, and bracket drawings with a BOM — ready for supplier quoting and prototype fabrication.',
-    disclaimer: 'Freelance mechanical design for CoachCube.ai · ongoing / in development. Shown with client-safe public detail only.'
+    problem: 'A construction-site hoist had to convert an 8 kW motor at ~1480 rpm down to ~69 rpm for lifting — a ~21:1 reduction in a compact, manufacturable package with a clutch to decouple the drive, and no overstressed gears, shafts, or bearings.',
+    role: 'Owned the full mechanical design. Sized the gear stages, shafts, pins, and bearings from first-principles hand calculations, then modeled and assembled every part in SolidWorks with realistic interfaces, axial retention, sealing, and lubrication.',
+    process: [
+      'Defined the requirement: 8 kW motor at ~1480 rpm reduced to ~69 rpm output to drive a hoist drum at a construction site.',
+      'Calculated gear tooth forces, shaft torsional and bending loads, bearing reaction forces, and planetary pin/carrier loading for each stage.',
+      'Selected and dimensioned gears, shafts, pins, and bearings to meet strength, life, and durability requirements.',
+      'Modeled all components in SolidWorks — shafts, gears, bearings, and carriers — with correct interfaces, fits, and clearances.',
+      'Added retention and sealing detail: snap rings for axial retention, oil seals at shaft exits, and oil fill/drain lubrication features.',
+      'Assembled the full gearbox — clutch, planetary stages, shafts, bearings, and housing — to verify alignment, packaging, and assembly feasibility.'
+    ],
+    decisions: [
+      { pre: 'Chose a ', mid: 'two-stage planetary architecture', post: ' to achieve the ~21:1 reduction compactly, splitting the load across multiple planet gears instead of a bulky single-stage train.' },
+      { pre: 'Integrated an ', mid: 'electromagnetic clutch upstream', post: ' of the gearbox so the drive can be engaged and disengaged without interrupting the motor.' },
+      { pre: 'Sized every component from ', mid: 'first-principles force and torque calculations', post: ' — gear tooth forces, shaft bending and torsion, bearing reactions, and pin/carrier loads — before committing to CAD.' },
+      { pre: 'Used ', mid: 'snap rings and oil seals', post: ' for axial retention and shaft sealing, with dedicated oil fill and drain features for lubrication and serviceability.' },
+      { pre: 'Validated the design through a ', mid: 'sectioned general assembly drawing', post: ' with toleranced H7/g6 and p6 fits, confirming clearances, alignment, and packaging before declaring the model manufacturable.' }
+    ],
+    specs: [
+      { k: 'Application', v: 'Construction hoist drive' },
+      { k: 'Rated power', v: '8 kW' },
+      { k: 'Input speed', v: '~1480 rpm' },
+      { k: 'Output speed', v: '~69 rpm' },
+      { k: 'Reduction', v: '~21:1, two planetary stages' },
+      { k: 'Clutch', v: 'Electromagnetic, upstream' },
+      { k: 'Retention', v: 'Snap rings, axial' },
+      { k: 'Sealing', v: 'Oil seals at shaft exits' },
+      { k: 'Lubrication', v: 'Oil fill + drain features' },
+      { k: 'CAD', v: 'SolidWorks full assembly' }
+    ],
+    gallery: [
+      { src: 'assets/gearbox/gearbox-assembled.png', bg: '#ffffff', label: 'Assembled gearbox — bolted housing on its mounting frame, electromagnetic clutch and input flange at left, output shaft at right.' },
+      { src: 'assets/gearbox/gearbox-two-stage.png', bg: '#ffffff', label: 'Both planetary stages with the housing hidden — ring gears, planet carriers, bearing stacks, and the input and output shafts.' },
+      { src: 'assets/gearbox/dwg/casing-assem.png', bg: '#ffffff', label: 'General assembly drawing — sectioned view A-A through both planetary stages, overall 911.70 mm envelope, toleranced H7/g6, p6, h7 and h8 fits, and a 12-item bill of materials.' },
+      { src: 'assets/gearbox/dwg/input.png', bg: '#ffffff', label: 'Input stage drawing — section A-A through the input shaft and first planet carrier with bearing seats, spline detail, keyway section C, and a 16-item BOM.' },
+      { src: 'assets/gearbox/dwg/output.png', bg: '#ffffff', label: 'Output stage drawing — section A-A through the second carrier and output shaft, 525.11 mm stage length, H7/k7 and p6 bearing and coupling fits, 14-item BOM.' },
+      { src: 'assets/gearbox/dwg/big-1.png', bg: '#ffffff', label: 'Housing section 1 — machined detail drawing with sections A-A through E-E, Ø269.29 and Ø347.91 bearing bores, M15×12 bolt pattern, and 0.1 mm flatness callouts.' },
+      { src: 'assets/gearbox/dwg/big-2.png', bg: '#ffffff', label: 'Housing section 2 — Ø439.41 outer flange with Ø343.42 and Ø299.29 bores, M15×12 and M18×2 threads, datum-referenced 0.1 mm tolerances.' },
+      { src: 'assets/gearbox/dwg/big-3.png', bg: '#ffffff', label: 'Housing section 3 — output-end casing with Ø427.14 and Ø115.00 bores, M14×12 bolt circle, and sections A-A through C-C.' }
+    ],
+    tools: ['SolidWorks', 'Hand Calculations', 'GD&T / Tolerancing', 'Bearing Life Calc'],
+    deliverables: ['Force & torque sizing calculations', 'Gear, shaft, pin & bearing selection', 'Full SolidWorks gearbox assembly', 'General assembly + stage & housing drawings', 'Electromagnetic clutch integration', 'Lubrication & sealing design'],
+    result: 'A fully assembled, manufacturable two-stage planetary gearbox transmitting 8 kW from ~1480 rpm down to ~69 rpm at the drum — every gear, shaft, pin, and bearing sized from first-principles analysis and integrated with clutch, sealing, and lubrication in a verified SolidWorks assembly.'
   },
   {
     id: 'fea', category: ['mechanical'], featured: true,
@@ -942,125 +941,69 @@ const PROJECTS = [
     disclaimer: 'Combined case study drawing on the Smart Gym Machine (senior thesis) and 3D Printed Helmet projects. See each project for full context.'
   },
   {
-    id: 'gearbox', category: ['mechanical'], featured: true,
-    title: 'Two-Stage Planetary Gearbox with Clutch Integration',
-    subtitle: 'Power Transmission · Component Sizing · CAD Assembly',
-    image: 'Planetary gearbox — full SolidWorks assembly',
-    cardSrc: 'assets/gearbox/hero-iso.png',
+    id: 'gym', category: ['mechanical'], featured: false,
+    title: 'Smart Compact Gym Machine — Motor-Driven Dual-Cable Resistance System',
+    subtitle: 'Cable/Pulley Resistance · Steel Weldment · FEA · Fabrication Drawings',
+    image: 'Smart gym machine — steel frame + cable/pulley CAD assembly',
+    tags: ['Mechanical Design', 'Cable/Pulley System', 'Steel Weldment', 'ANSYS FEA', 'Fabrication Drawings', 'BOM'],
+    short: 'Senior-thesis lead mechanical design of a wall-mounted smart home gym that replaces the weight stack with a motor-driven dual-cable resistance system — steel weldment, cable routing onto motor-mounted spools, three-case FEA, full fabrication drawings, and BOM. Built and bench-tested as a working prototype.',
+    stats: [
+      { label: 'Structural Design Load', value: '50 kg / arm (490.5 N)' },
+      { label: 'Worst-Case FOS', value: '2.15 at 109 MPa (45° pull)' },
+      { label: 'Resistance Tested', value: '5, 13 & 17 kg — smooth travel' },
+      { label: 'Envelope', value: '≤120×60×35 cm · <60 kg, wall-mounted' }
+    ],
+    problem: 'A weight stack is bulky, heavy, and fixed. Replace it with a compact, wall-mounted, motor-driven cable system giving smooth adjustable resistance on both concentric and eccentric phases — while proving the steel structure carries a 50 kg-per-arm load within a 9,830 EGP budget.',
+    role: 'Lead on mechanical design for a team of 6: owned frame geometry, cable/pulley routing, motor-spool sizing, the full structural verification (hand calcs → ANSYS FEA → MITCalc weld/bolt checks), and all fabrication drawings and the BOM.',
+    process: [
+      'Set the architecture: two arms, each routing handle → guiding pulley → vertical slider pulley → top frame pulley → spool on a motor/gearbox shaft.',
+      'Sized resistance from F = T ÷ r — 4.22 Nm at a 20 mm spool radius gives ~211 N (~21.5 kg theoretical), de-rated with a safety factor to ~11–14 kg continuous.',
+      'Designed the steel weldment: 3 mm ST37 sheet with 37×37 mm SHS tube, TIG-welded structure and spot-welded locking nuts for the height-adjustable slider.',
+      'Ran hand calcs (bending, shear, deflection) as a sanity check, then ANSYS Discovery FEA for three governing load cases.',
+      'Verified every joint in MITCalc — M12 cl.8.8 wall anchors, M8 rail brackets, Ø10 arm pivot pin, motor-frame and pulley-shaft bolts.',
+      'Produced exploded views, a dimensioned assembly drawing, part drawings, and a full BOM — then fabricated and bench-tested the prototype.'
+    ],
+    decisions: [
+      { pre: 'Replaced the weight stack with a ', mid: 'motor-driven cable/spool system', post: ' — the motor resists as the cable unwinds (concentric) and controls rewind (eccentric), giving electronically adjustable resistance with no plates.' },
+      { pre: 'Sized the steel structure for a ', mid: '50 kg/arm design load', post: ' while deliberately fitting a budget-sized prototype motor (~11–14 kg) — so the mechanics and verification scale, and only the motor/electronics need uprating for production.' },
+      { pre: 'Made the slider ', mid: 'height-adjustable on a vertical rail', post: ', locked with a pin into spot-welded nuts, and the arms angle-adjustable at +45° / 0° / −45° to cover multiple exercises.' },
+      { pre: 'Switched braking through a ', mid: 'generator-mode control scheme', post: ' (ESP32 + encoder + MD10C driver + relays) — open circuit / resistive load / short circuit giving low / medium / high resistance.' },
+      { pre: 'Validated the worst case — the ', mid: '45° angled pull at 109 MPa', post: ' — keeping a factor of safety of 2.15 against ST37 yield, with welds and bolts checked separately in MITCalc.' }
+    ],
+    specs: [
+      { k: 'Design load', v: '50 kg/arm (490.5 N)' },
+      { k: 'Motor', v: 'Brushed DC + gearbox, Tokusho TD3120G' },
+      { k: 'Torque', v: '2.65 Nm rated / 6 Nm peak (4.22 Nm cont.)' },
+      { k: 'Gear reduction', v: '1:24 gearbox' },
+      { k: 'Spool', v: '20 mm radius (40 mm dia.)' },
+      { k: 'Cable', v: '5 mm nylon-coated steel · ~2000 kg · SF≈5' },
+      { k: 'Frame', v: 'Mild steel ST37 · 3 mm sheet + 37×37 SHS' },
+      { k: 'Joining', v: 'TIG (structural) + spot weld (lock nuts)' },
+      { k: 'Control', v: 'ESP32 · encoder · MD10C · 4 relays' },
+      { k: 'Envelope', v: '≤120×60×35 cm · <60 kg · wall-mounted' },
+      { k: 'Budget', v: '9,830 EGP (cap 10,000)' },
+      { k: 'Standards', v: 'ISO 20957, 12100, 13849 · IEC 61140 · EN 10025-2' }
+    ],
+    cardSrc: 'assets/gym/hero-arms.png',
     cardFit: 'contain',
-    heroSrc: 'assets/gearbox/cutaway.png',
+    cardBg: '#ffffff',
+    heroSrc: 'assets/gym/hero-arms.png',
     heroBg: '#ffffff',
-    tags: ['Power Transmission', 'Planetary Gears', 'Component Sizing', 'Bearing Selection', 'SolidWorks'],
-    short: 'Designed a two-stage planetary gearbox with an integrated electromagnetic clutch for a construction-site hoisting application — sizing every load-bearing component from first-principles analysis through to a fully assembled, manufacturable SolidWorks model.',
-    stats: [
-      { label: 'Rated Power', value: '8 kW electric motor' },
-      { label: 'Input Speed', value: '~1480 rpm' },
-      { label: 'Output Speed', value: '~69 rpm at the drum' },
-      { label: 'Architecture', value: 'Two planetary stages + clutch' }
-    ],
-    problem: 'A construction-site hoist had to convert an 8 kW motor at ~1480 rpm down to ~69 rpm for lifting — a ~21:1 reduction in a compact, manufacturable package with a clutch to decouple the drive, and no overstressed gears, shafts, or bearings.',
-    role: 'Owned the full mechanical design. Sized the gear stages, shafts, pins, and bearings from first-principles hand calculations, then modeled and assembled every part in SolidWorks with realistic interfaces, axial retention, sealing, and lubrication.',
-    process: [
-      'Defined the requirement: 8 kW motor at ~1480 rpm reduced to ~69 rpm output to drive a hoist drum at a construction site.',
-      'Calculated gear tooth forces, shaft torsional and bending loads, bearing reaction forces, and planetary pin/carrier loading for each stage.',
-      'Selected and dimensioned gears, shafts, pins, and bearings to meet strength, life, and durability requirements.',
-      'Modeled all components in SolidWorks — shafts, gears, bearings, and carriers — with correct interfaces, fits, and clearances.',
-      'Added retention and sealing detail: snap rings for axial retention, oil seals at shaft exits, and oil fill/drain lubrication features.',
-      'Assembled the full gearbox — clutch, planetary stages, shafts, bearings, and housing — to verify alignment, packaging, and assembly feasibility.'
-    ],
-    decisions: [
-      { pre: 'Chose a ', mid: 'two-stage planetary architecture', post: ' to achieve the ~21:1 reduction compactly, splitting the load across multiple planet gears instead of a bulky single-stage train.' },
-      { pre: 'Integrated an ', mid: 'electromagnetic clutch upstream', post: ' of the gearbox so the drive can be engaged and disengaged without interrupting the motor.' },
-      { pre: 'Sized every component from ', mid: 'first-principles force and torque calculations', post: ' — gear tooth forces, shaft bending and torsion, bearing reactions, and pin/carrier loads — before committing to CAD.' },
-      { pre: 'Used ', mid: 'snap rings and oil seals', post: ' for axial retention and shaft sealing, with dedicated oil fill and drain features for lubrication and serviceability.' },
-      { pre: 'Validated the design through a ', mid: 'full sectioned assembly', post: ', confirming fits, clearances, alignment, and packaging before declaring the model manufacturable.' }
-    ],
-    specs: [
-      { k: 'Application', v: 'Construction hoist drive' },
-      { k: 'Rated power', v: '8 kW' },
-      { k: 'Input speed', v: '~1480 rpm' },
-      { k: 'Output speed', v: '~69 rpm' },
-      { k: 'Reduction', v: '~21:1, two planetary stages' },
-      { k: 'Clutch', v: 'Electromagnetic, upstream' },
-      { k: 'Retention', v: 'Snap rings, axial' },
-      { k: 'Sealing', v: 'Oil seals at shaft exits' },
-      { k: 'Lubrication', v: 'Oil fill + drain features' },
-      { k: 'CAD', v: 'SolidWorks full assembly' }
-    ],
     gallery: [
-      { src: 'assets/gearbox/hero-iso.png', bg: '#ffffff', label: 'Assembled gearbox — isometric view of the housing, mounting feet, input flange, and bolted end cover.' },
-      { src: 'assets/gearbox/cutaway.png', bg: '#ffffff', label: 'Sectioned CAD model — internal view of the two planetary stages, clutch, shafts, and bearings, tracing the full power-transmission path.' },
-      { src: 'assets/gearbox/section-drawing.png', bg: '#ffffff', label: 'Sectioned assembly drawing (Section C-C) — dimensioned cross-section with toleranced fits for the planetary stages, bearings, and shafts.' }
+      { src: 'assets/gym/cad-assembly.png', bg: '#ffffff', label: 'Full CAD assembly — welded frame with the dual motor-and-spool drives, top guide pulleys, and one adjustable arm extended.' },
+      { src: 'assets/gym/cable-routing.png', bg: '#ffffff', label: 'Cable routing — each cable (red) runs handle → arm → slider → top pulleys → spool, with both motor/spool stages stacked inside the frame.' },
+      { src: 'assets/gym/fea-vonmises.png', bg: '#1f1f1f', label: 'ANSYS von Mises — the governing 45° angled-pull case peaks at 109 MPa, a factor of safety of 2.15 against ST37 yield (235 MPa).' },
+      { src: 'assets/gym/assembly-drawing.png', bg: '#ffffff', label: 'Dimensioned assembly drawing (SolidWorks) — 560 mm wide envelope, 1100 mm rail, with orthographic views and an itemised BOM.' },
+      { src: 'assets/gym/prototype-test.png', bg: '#000000', label: 'Fabricated prototype under bench test — welded steel frame, motor-driven spool, and the ESP32 control electronics during a resistance run.' }
     ],
-    tools: ['SolidWorks', 'Hand Calculations', 'GD&T / Tolerancing', 'Bearing Life Calc'],
-    deliverables: ['Force & torque sizing calculations', 'Gear, shaft, pin & bearing selection', 'Full SolidWorks gearbox assembly', 'Sectioned assembly drawing (Section C-C)', 'Electromagnetic clutch integration', 'Lubrication & sealing design'],
-    result: 'A fully assembled, manufacturable two-stage planetary gearbox transmitting 8 kW from ~1480 rpm down to ~69 rpm at the drum — every gear, shaft, pin, and bearing sized from first-principles analysis and integrated with clutch, sealing, and lubrication in a verified SolidWorks assembly.'
-  },
-  {
-    id: 'delta', category: ['mechatronics', 'mechanical'], featured: true,
-    title: '4-DOF Delta Robot — Parallel Pick-and-Place Mechanism with Gripper',
-    subtitle: 'SolidWorks CAD · Stepper-Driven Linkages · MATLAB Inverse Kinematics · Arduino Control',
-    image: 'Delta robot — CAD assembly with fixed base, three motor-driven arms, and gripper end effector',
-    tags: ['Mechatronics', 'Parallel Robotics', 'SolidWorks', 'MATLAB', 'Arduino', '3D Printing'],
-    short: 'A 4-DOF parallel delta robot for pick-and-place, with a fixed upper base, three stepper-driven arms and forearms, a lower moving platform, and a servo-driven gripper. MATLAB inverse kinematics drove Arduino motor control, with step output validated against the calculated motion for the same target position.',
-    stats: [
-      { label: 'Degrees of Freedom', value: '4-DOF parallel mechanism' },
-      { label: 'Actuation', value: '3× NEMA 17 steppers + MG90S gripper servo' },
-      { label: 'Control', value: 'MATLAB IK → Arduino Uno + A4988 drivers' },
-      { label: 'Validation', value: 'Arduino step output matched MATLAB target angles' }
-    ],
-    problem: 'Build a compact parallel robot that can pick and place light payloads with a gripper end effector — a rigid but lightweight linkage design, three coordinated motor-driven arms, workable clearances between arms across the full range of motion, and control software that reliably converts a target position into correct motor commands.',
-    role: 'Worked on the mechanical design and controls of a 4-DOF delta robot: SolidWorks CAD of the base, arms, forearms, and moving platform, the physical prototype build, the MATLAB inverse-kinematics derivation, and Arduino motor control integration.',
-    process: [
-      'Modeled the fixed upper base, three motor-driven arms, pin-jointed forearms, and lower moving platform in SolidWorks, sized around three NEMA 17 steppers and an MG90S gripper servo.',
-      'Built the physical prototype from 3D-printed arms and a moving platform, metal forearm rods with ball-joint connections, and a wooden support frame.',
-      'Derived the inverse kinematics in MATLAB for the parallel linkage geometry, converting a target end-effector position into the three arm angles.',
-      'Wired the electronics — an Arduino Uno driving three A4988 stepper drivers, plus the MG90S gripper servo — and wrote the Arduino IDE motor control code.',
-      'Validated control by comparing Arduino motor-step output against the MATLAB-calculated angles for the same target position, then checked the resulting workspace against the design envelope.',
-      'Assessed workspace limits, collision avoidance between arms, payload handling, rigidity, vibration, and singularities across the design.'
-    ],
-    decisions: [
-      { pre: 'Chose a ', mid: 'parallel delta configuration', post: ' over a serial arm — all three motors stay fixed to the base, keeping moving mass, inertia, and vibration low at the end effector.' },
-      { pre: 'Used ', mid: 'ball-joint rod ends on the forearms', post: ' rather than rigid pin joints, giving the parallel linkage the extra rotational freedom it needs without binding across the workspace.' },
-      { pre: 'Mixed ', mid: '3D-printed structural parts with metal forearm rods', post: ' — printed parts for the base, arms, and platform geometry, rigid rods where the forearms needed to resist bending under load.' },
-      { pre: 'Validated control in two stages', mid: ' — MATLAB inverse kinematics first, then Arduino step output', post: ' checked against it for the same commanded position, rather than trusting the motor code alone.' },
-      { pre: 'Checked ', mid: 'workspace limits and inter-arm collision', post: ' across the full range of motion before finalizing arm and forearm lengths, rather than sizing links on reach alone.' }
-    ],
-    specs: [
-      { k: 'Configuration', v: '4-DOF parallel delta (3 arms + gripper)' },
-      { k: 'Base', v: 'Fixed upper base, 3 motor mounts' },
-      { k: 'Arms', v: '3× motor-driven, 3D printed' },
-      { k: 'Forearms', v: 'Metal rod links, ball-joint ends' },
-      { k: 'Platform', v: '3D-printed lower moving platform' },
-      { k: 'Actuators', v: '3× NEMA 17 stepper + A4988 drivers' },
-      { k: 'Gripper', v: 'MG90S servo end effector' },
-      { k: 'Controller', v: 'Arduino Uno (Arduino IDE)' },
-      { k: 'Kinematics', v: 'MATLAB inverse kinematics' },
-      { k: 'CAD', v: 'SolidWorks assembly' }
-    ],
-    cardSrc: 'assets/delta/cad-assembly-01.png',
-    cardFit: 'contain',
-    cardBg: '#eef1f4',
-    heroSrc: 'assets/delta/cad-assembly-01.png',
-    heroBg: '#eef1f4',
-    gallery: [
-      { src: 'assets/delta/cad-assembly-01.png', bg: '#eef1f4', label: 'SolidWorks CAD assembly — fixed upper base, three motor-driven arms, pin-jointed forearms, moving platform, and gripper.' },
-      { src: 'assets/delta/prototype.jpeg', bg: '#c9c9c9', label: 'Physical prototype — 3D-printed arms and platform, forearm linkages, and wooden support frame, wired for bench testing.' },
-      { src: 'assets/delta/arm-detail.jpg', bg: '#c9c9c9', label: 'Arm detail — forearm rod-end linkages and pivot bearings at the moving platform.' },
-      { src: 'assets/delta/assembly-drawing.png', bg: '#ffffff', label: 'Assembly drawing — top and front views of the arm/forearm geometry with overall envelope dimensions.' },
-      { src: 'assets/delta/kinematics-model.png', bg: '#ffffff', label: 'MATLAB kinematic model of the arm/forearm linkage frames, used to derive the inverse kinematics and reachable workspace.' },
-      { src: 'assets/delta/circuit-schematic.png', bg: '#ffffff', label: 'Motor driver circuit — Arduino Uno driving three A4988 stepper drivers, one per arm.' },
-      { src: 'assets/delta/wiring-photo.jpeg', bg: '#e5e5e5', label: 'Wiring — Arduino, A4988 drivers, and breadboard power distribution for the three steppers.' }
-    ],
-    tools: ['SolidWorks', 'MATLAB', 'Arduino IDE', 'A4988 Stepper Drivers', '3D Printing (FDM)', 'Inverse Kinematics'],
-    deliverables: ['SolidWorks CAD assembly', 'MATLAB inverse-kinematics model', 'Arduino motor control firmware', '3D-printed + wired physical prototype', 'Workspace & collision validation'],
-    result: 'A working 4-DOF delta robot prototype: three coordinated stepper-driven arms moving a gripper end effector through a validated workspace, with Arduino motor output confirmed against MATLAB-calculated target positions.',
-    disclaimer: 'Academic/team project — phrased here to reflect the specific mechanical design and controls work involved.'
+    tools: ['SolidWorks', 'ANSYS Discovery', 'MITCalc', 'MATLAB', 'TIG / Spot Welding'],
+    deliverables: ['3D CAD assembly + exploded view', 'Dimensioned assembly drawing', 'Part drawings', 'Full BOM', 'MITCalc weld/bolt calc sheets', 'Three-case FEA report', 'Fabricated, bench-tested prototype'],
+    result: 'A complete mechanical design package and a working prototype: a wall-mounted dual-cable machine whose ST37 weldment was verified to 50 kg/arm across three FEA cases (worst case 109 MPa, FOS 2.15). The build held three resistance settings — 5, 13, and 17 kg — with smooth, spike-free force across full cable travel and stable motor behaviour over repeated cycles.',
+    disclaimer: 'Senior thesis · MENG 4981 · AUC, Fall 2025. Author was lead on mechanical design, structural calculations, and drawings for a 6-person team.'
   }
-
 ];
 
-const CAT_LABEL = { '3d-printing': '3D Printing', 'mechanical': 'Mechanical', 'product-design': 'Product Design', 'mechatronics': 'Mechatronics' };
+const CAT_LABEL = { '3d-printing': '3D Printing', 'mechanical': 'Mechanical', 'product-design': 'Product Design' };
 
 class Component extends DCLogic {
   constructor(props) {
